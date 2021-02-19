@@ -37,7 +37,7 @@ where $$\mathbb{P}_m$$ is a uniform distribution along straight lines between pa
 Then we minimize $$L(g_\theta)$$ with respect to $$\theta$$, from which we can see the critic $$f(x)$$ only serves to define the loss function for the generator.
 
 ![]({{ '/assets/images/wgan-gp.png' | relative_url }})
-{: style="width: 100%;" class="center"}
+{: style="width: 90%;" class="center"}
 *Figure WGAN with Gradient Penalty*
 {:.image-caption}
 

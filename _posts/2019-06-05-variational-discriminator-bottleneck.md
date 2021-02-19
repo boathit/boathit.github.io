@@ -58,7 +58,7 @@ $$
 I(Z, X) \leq \mathbb{E}_{p(x)} [\mathrm{KL}[p(z\vert x) \| r(z)]] + \mathrm{const}
 $$
 
-The above analysis is also available at [DVIB](/deep-VIB.html).
+The above analysis is also available at [Deep Variational Information Bottleneck]({{ site.baseurl }}{% post_url 2019-06-06-deep-vib%}#the-upper-bound-of-mi).
 
 ## VIB objective
 

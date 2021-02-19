@@ -70,12 +70,12 @@ where $$K_{ij} = \exp -\hat{c}_{ij}/\epsilon$$ and $$\hat{c} = [\| f_\varphi(\ma
 ## Learning algorithm
 
 ![]({{ '/assets/images/sinkhorn-auto-diff.png' | relative_url }})
-{: style="width: 65%;" class="center"}
+{: style="width: 55%;" class="left"}
 *Figure Sinkhorn Automatic Differentiation*
 {:.image-caption}
 
 
 ![]({{ '/assets/images/sinkhorn-loss.png' | relative_url }})
-{: style="width: 65%;" class="center"}
+{: style="width: 55%;" class="left"}
 *Figure Sinkhorn Loss*
 {:.image-caption}

@@ -158,7 +158,7 @@ $$
 #### Polar form
 
 ![Beam search probability]({{ 'https://prod-edxapp.edx-cdn.org/assets/courseware/v1/64ccbb6226fed948407ba004316db9ef/asset-v1:MITx+18.031x+2T2019+type@asset+block/images_polar_form01.svg' | absolute_url }})
-{: style="width: 85%;" class="center"}
+{: style="width: 95%;" class="center"}
 *Fig.*
 {:.image-caption}
 
@@ -166,9 +166,9 @@ To specify a preferred polar form, we would have to restrict the range for $$\th
 
 Given a complex number $$a + bi$$ with $$a, b \neq 0$$, how do we find the principal value of the argument $$\theta \in (-\pi, \pi]$$? There are two angles in $$(-\pi, \pi]$$ having tangent equal to $$b/a$$, corresponding to opposite directions. By definition, $$\tan ^{-1}(b/a)$$ is the one in $$(-\pi /2,\pi /2)$$. If $$a + bi$$ is in the right half plane, then $$\theta = \tan ^{-1}(b/a)$$ works. Otherwise, it is necesary to adjust $$\tan ^{-1}(b/a)$$ by adding or subtracting $$\pi$$.
 
-![Beam search probability]({{ 'https://prod-edxapp.edx-cdn.org/assets/courseware/v1/9ad087f9fc203dec12ebc0fae1165e1c/asset-v1:MITx+18.031x+2T2019+type@asset+block/images_arctanangles.svg' | absolute_url }})
-{: style="width: 85%;" class="center"}
-*Fig.*
+![arctan]({{ 'https://prod-edxapp.edx-cdn.org/assets/courseware/v1/9ad087f9fc203dec12ebc0fae1165e1c/asset-v1:MITx+18.031x+2T2019+type@asset+block/images_arctanangles.svg' | absolute_url }})
+{: style="width: 45%;" class="center"}
+*Fig. Principal value of arctan*
 {:.image-caption}
 
 
@@ -235,9 +235,9 @@ $$
 
 How do you trap a lion?
 
-![Beam search probability]({{ 'https://prod-edxapp.edx-cdn.org/assets/courseware/v1/369bae3a14122a9b41dc840e454ea111/asset-v1:MITx+18.031x+2T2019+type@asset+block/images_one-over-z.svg' | absolute_url }})
-{: style="width: 85%;" class="center"}
-*Fig.*
+![Trap a Lion]({{ 'https://prod-edxapp.edx-cdn.org/assets/courseware/v1/369bae3a14122a9b41dc840e454ea111/asset-v1:MITx+18.031x+2T2019+type@asset+block/images_one-over-z.svg' | absolute_url }})
+{: style="width: 55%;" class="center"}
+*Fig. Trap a Lion*
 {:.image-caption}
 
 
@@ -259,9 +259,9 @@ $$
 
 Geometrically, they all lie on the unit circle in the complex plane. The roots are evenly spaced around the unit circle, starting with the root $z = 1$, and the angle between two consecutive roots is $$2\pi/n$$.  These facts are illustrated for the case $$n=6$$ in the figure below.
 
-![Beam search probability]({{ 'https://prod-edxapp.edx-cdn.org/assets/courseware/v1/cd1590185f154745b59986bcdd71689c/asset-v1:MITx+18.031x+2T2019+type@asset+block/images_6th-roots.svg' | absolute_url }})
-{: style="width: 85%;" class="center"}
-*Fig.*
+![Roots of Unity]({{ 'https://prod-edxapp.edx-cdn.org/assets/courseware/v1/cd1590185f154745b59986bcdd71689c/asset-v1:MITx+18.031x+2T2019+type@asset+block/images_6th-roots.svg' | absolute_url }})
+{: style="width: 55%;" class="center"}
+*Fig. Roots of Unity*
 {:.image-caption}
 
 
@@ -296,8 +296,8 @@ where $$\theta = \arctan(3/2)$$.
 
 ![](https://prod-edxapp.edx-cdn.org/assets/courseware/v1/cea1d080b3dfeeb11f735e86dce34c3a/asset-v1:MITx+18.031x+2T2019+type@asset+block/images_curly-spring-mass-dashpot-no-external-force.svg)
 ![Beam search probability]({{ '/assets/images/diffeq-u4-01.png' | absolute_url }})
-{: style="width: 85%;" class="center"}
-*Fig.*
+{: style="width: 95%;" class="center"}
+*Fig. String Mass Dashpot*
 {:.image-caption}
 
 * $$F_{\mathrm{spring}}$$ is a function of the position $$x$$, and has opposite sign of $$x$$;
@@ -403,7 +403,7 @@ $$
 where $$A, \phi$$ in terms of $$a, b$$ are given implicitly by the following diagram:
 
 ![Beam search probability]({{ 'https://prod-edxapp.edx-cdn.org/assets/courseware/v1/afb3f3126e66429165fc6ecfc7ba78a6/asset-v1:MITx+18.031x+2T2019+type@asset+block/images_u1c3s1_Ampphasetriangle.svg' | absolute_url }})
-{: style="width: 85%;" class="center"}
+{: style="width: 65%;" class="center"}
 *Fig.*
 {:.image-caption}
 
@@ -434,9 +434,9 @@ As usual, the angle $$\phi$$ is well-defined only up to addition of integer mult
 **Graphing sinusoidal functions**
 
 
-![Beam search probability]({{ 'https://prod-edxapp.edx-cdn.org/assets/courseware/v1/076dfbc4e9b89e9efe85802167b6b90a/asset-v1:MITx+18.031x+2T2019+type@asset+block/images_sinusoids.svg' | absolute_url }})
-{: style="width: 85%;" class="center"}
-*Fig.*
+![Sinusoidal]({{ 'https://prod-edxapp.edx-cdn.org/assets/courseware/v1/076dfbc4e9b89e9efe85802167b6b90a/asset-v1:MITx+18.031x+2T2019+type@asset+block/images_sinusoids.svg' | absolute_url }})
+{: style="width: 55%;" class="center"}
+*Fig. Sinusoidal Functions*
 {:.image-caption}
 
 $$
@@ -527,15 +527,15 @@ $$
 shown in the below figure, from which we can conclude that the smaller $$b$$ the faster the mass moves to the equilibrium position at the first round.
 
 ![Beam search probability]({{ 'https://prod-edxapp.edx-cdn.org/assets/courseware/v1/341d5dfd7d85a3df0f7b292b2e518fae/asset-v1:MITx+18.031x+2T2019+type@asset+block/images_3-harmonic.svg' | absolute_url }})
-{: style="width: 85%;" class="center"}
+{: style="width: 65%;" class="center"}
 *Fig.*
 {:.image-caption}
 
 #### Real life application: the rocking motion of a boat
 
-![Beam search probability]({{ 'https://prod-edxapp.edx-cdn.org/assets/courseware/v1/991011db427237094d476e27aa5a37d3/asset-v1:MITx+18.031x+2T2019+type@asset+block/images_u1c3s2_boatintro.svg' | absolute_url }})
-{: style="width: 85%;" class="center"}
-*Fig.*
+![Rocking Motion of a Boat]({{ 'https://prod-edxapp.edx-cdn.org/assets/courseware/v1/991011db427237094d476e27aa5a37d3/asset-v1:MITx+18.031x+2T2019+type@asset+block/images_u1c3s2_boatintro.svg' | absolute_url }})
+{: style="width: 65%;" class="center"}
+*Fig. Rocking Motion of a Boat*
 {:.image-caption}
 
 The rotational motion of a boat rocking sideways close to its flat equilibrium position is described by the linear approximation of the rotational version of Newton's second law:
@@ -1098,9 +1098,9 @@ Let $$L(\omega^2) := \vert P(i\omega) \vert^2 = (\omega_n^2 - \omega^2)^2 + 4p^2
 
 **RLC circuits**. 
 
-![Beam search probability]({{ 'https://prod-edxapp.edx-cdn.org/assets/courseware/v1/c0f8f8c495dd18c44d31c88a6033eae8/asset-v1:MITx+18.031x+2T2019+type@asset+block/images_RLC.svg' | absolute_url }})
-{: style="width: 85%;" class="center"}
-*Fig.*
+![RLC Circuits]({{ 'https://prod-edxapp.edx-cdn.org/assets/courseware/v1/c0f8f8c495dd18c44d31c88a6033eae8/asset-v1:MITx+18.031x+2T2019+type@asset+block/images_RLC.svg' | absolute_url }})
+{: style="width: 50%;" class="center"}
+*Fig. RLC Circuits*
 {:.image-caption}
 
 
@@ -1158,7 +1158,7 @@ $$
 This reflects a rough parallel between mechanical and electrical systems, 
 
 ![Beam search probability]({{ '/assets/images/diffeq-u4-02.png' | relative_url }})
-{: style="width: 85%;" class="center"}
+{: style="width: 95%;" class="center"}
 *Fig.*
 {:.image-caption}
 
@@ -1292,7 +1292,7 @@ If $$y_0$$ is a critical point of an autonomous equation, then $$y=y_0$$ is a co
 Recall that for any first order DE, the $$0$$-isocline divides the $$(t, y)$$-plane into up regions, where $$f > 0$$, and down regions, where $$f < 0$$. 
 
 ![Beam search probability]({{ 'https://prod-edxapp.edx-cdn.org/assets/courseware/v1/b46eaf7b53f14b1a33b297d8559b2c11/asset-v1:MITx+18.031x+2T2019+type@asset+block/images_autonomous0isocline_newcolors.svg' | absolute_url }})
-{: style="width: 85%;" class="center"}
+{: style="width: 65%;" class="center"}
 *Fig.*
 {:.image-caption}
 
@@ -1305,8 +1305,10 @@ To find the qualitative behaviour of solutions to $$\dot{y}=f(y)$$, we follow tw
 
 **Definition**. The phase line of a first order autonomous DE $$\dot{y} = f(y)$$ is a plot of the $$y$$-axis with all critical points and with an arrow in each interval between the critical points indicating whether solutions increase or decrease.
 
-![](https://prod-edxapp.edx-cdn.org/assets/courseware/v1/e3dbb9b51ec592d56ba39dada38391eb/asset-v1:MITx+18.031x+2T2019+type@asset+block/images_autonomousphaselinesolutioncurves2.svg)
-
+![Beam search probability]({{ 'https://prod-edxapp.edx-cdn.org/assets/courseware/v1/e3dbb9b51ec592d56ba39dada38391eb/asset-v1:MITx+18.031x+2T2019+type@asset+block/images_autonomousphaselinesolutioncurves2.svg' | absolute_url }})
+{: style="width: 65%;" class="center"}
+*Fig.*
+{:.image-caption}
 
 
 **Logistic Equation**. The simplest model for population $$y(t)$$ is the ODE $$\dot{y} = ky$$ for a positive growth constant $$k$$, which is the birth rate minus the death rate of the population. This DE says that the rate of population growth is proportional to the current population, and we know the solution to be $$y(t) = Ce^{kt}$$.
@@ -1334,7 +1336,7 @@ A critical point $$x = a$$ is called
 * semistable (black color) if the behavior depends on which side of the critical point starts.
 
 ![Beam search probability]({{ 'https://prod-edxapp.edx-cdn.org/assets/courseware/v1/0b849d3b00443d414ab92bcb1fcdc5fe/asset-v1:MITx+18.031x+2T2019+type@asset+block/images_logisticsolutions_colored.svg' | absolute_url }})
-{: style="width: 85%;" class="center"}
+{: style="width: 65%;" class="center"}
 *Fig.*
 {:.image-caption}
 
@@ -1363,7 +1365,7 @@ $$
 The quadratic function $$ay-by^2-h$$ gets decreased by $$h$$ compared with $$ay-by^2$$, it will have only one critical point when it is tangent to $$y$$-axis as shown in the figure below.
 
 ![Beam search probability]({{ 'https://prod-edxapp.edx-cdn.org/assets/courseware/v1/12a90b4a4cdb16c760e4b8c786fbd5c4/asset-v1:MITx+18.031x+2T2019+type@asset+block/images_u2s2_harvestingproblem.svg' | absolute_url }})
-{: style="width: 85%;" class="center"}
+{: style="width: 55%;" class="center"}
 *Fig.*
 {:.image-caption}
 
@@ -1372,14 +1374,14 @@ The quadratic function $$ay-by^2-h$$ gets decreased by $$h$$ compared with $$ay-
 Let us draw the picture of the critical points change over $$h$$ for the DE $$\displaystyle  3y-y^2-h\qquad (h\geq 0).$$ 
 
 ![Beam search probability]({{ 'https://prod-edxapp.edx-cdn.org/assets/courseware/v1/93e7cb7222e48fc9c6175411fd807b0c/asset-v1:MITx+18.031x+2T2019+type@asset+block/images_bifurcation4a.svg' | absolute_url }})
-{: style="width: 85%;" class="center"}
+{: style="width: 55%;" class="center"}
 *Fig.*
 {:.image-caption}
 
 If we draw phase lines at all $$h$$-values, we get a diagram which is called a bifurcation diagram,
 
 ![Beam search probability]({{ 'https://prod-edxapp.edx-cdn.org/assets/courseware/v1/aded9d42c166c997f8d2cf1d6816adfd/asset-v1:MITx+18.031x+2T2019+type@asset+block/images_bifurcation1.svg' | absolute_url }})
-{: style="width: 85%;" class="center"}
+{: style="width: 55%;" class="center"}
 *Fig.*
 {:.image-caption}
 
