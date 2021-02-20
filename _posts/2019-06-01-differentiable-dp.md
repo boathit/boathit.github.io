@@ -51,22 +51,22 @@ Note that there may exist multiple $$\boldsymbol { Y } ^ { \star } ( \boldsymbol
 Let $$\Omega: \mathbb{R}^D \rightarrow \mathbb{R}$$ be a strongly convex regularizer on $$\triangle _ { D }$$ and let $$\mathbf{x} \in \mathbb{R}^D$$. The max operator smoothed by $$\Omega$$ is defined as:
 
 $$
-\max{ \Omega } ( \boldsymbol { x } ) \triangleq \sup _ { \boldsymbol { q } \in \triangle _ { D } } \langle \boldsymbol { q } , \boldsymbol { x } \rangle - \Omega ( \boldsymbol { q } ).
+\max{ \Omega } ( \boldsymbol { x } ) \triangleq \sup _ { \boldsymbol { q } \in \triangle _ { D } } \langle \boldsymbol { x }, \boldsymbol { q } \rangle - \Omega ( \boldsymbol { q } ).
 $$
 
-Since the $$\boldsymbol { q } \in \triangle _ { D } $$ that achieves the maximum on the right hand side is unique, according to Danskin's theorem it is equal to the gradient of $$\max{\Omega}$$ at $$\boldsymbol{x}$$, let $$\phi(\boldsymbol{x}, \boldsymbol{q}) \triangleq \sup _ { \boldsymbol { q } \in \triangle _ { D } } \langle \boldsymbol { q } , \boldsymbol { x } \rangle - \Omega ( \boldsymbol { q } )$$:
+Since the $$\boldsymbol { q } \in \triangle _ { D } $$ that attains the maximum on the right hand side is unique, according to Danskin's theorem it is equal to the gradient of $$\max{\Omega}$$ at $$\boldsymbol{x}$$, let $$\phi(\boldsymbol{x}, \boldsymbol{q}) \triangleq \sup _ { \boldsymbol { q } \in \triangle _ { D } } \langle \boldsymbol { x }, \boldsymbol { q } \rangle - \Omega ( \boldsymbol { q } )$$:
 
 $$
 \nabla_{\boldsymbol{x}} \max{ \Omega } ( \boldsymbol { x } ) = \nabla_{\boldsymbol{x}} \phi(\boldsymbol{x}, \boldsymbol{q}^*) = \boldsymbol{q}^*.
 $$
 
-where $$\boldsymbol{q}^* \triangleq \underset { \boldsymbol { q } \in \triangle _ { D } } { \operatorname { argmax } } \left(\langle \boldsymbol { q } , \boldsymbol { x } \rangle - \Omega ( \boldsymbol { q } )\right)$$.
+where $$\boldsymbol{q}^* \triangleq \underset { \boldsymbol { q } \in \triangle _ { D } } { \operatorname { argmax } } \left(\langle \boldsymbol { x }, \boldsymbol { q }  \rangle - \Omega ( \boldsymbol { q } )\right)$$.
 
 **Remark**: 
 
-* $$\max{ \Omega } ( \boldsymbol { x } )$$ actually is the Legendre conjugate of $$\Omega ( \boldsymbol { q } )$$.
-* When choosing $$\Omega$$ as negative-entropy, $$\max_{\Omega}$$ becomes the $$\operatorname{log-sum-exp}$$ and $$\nabla\max_{\Omega}$$ becomes $$\operatorname{softmax}$$.
-* Negative-entropy is strongly convex function, and thus $$\sup _ { \boldsymbol { q } \in \triangle _ { D } } \langle \boldsymbol { q } , \boldsymbol { x } \rangle - \Omega ( \boldsymbol { q } )$$ is a strongly-concave optimization problem.
+* $$\max{ \Omega } ( \boldsymbol { x } )$$ actually is the [Legendre conjugate]({{ site.baseurl }}{% post_url 2018-12-03-legendra-transformation%}) of $$\Omega ( \boldsymbol { q } )$$.
+* When choosing $$\Omega$$ as [negative-entropy]({{ site.baseurl }}{% post_url 2018-12-02-negative-entropy%}), $$\max_{\Omega}$$ becomes the $$\operatorname{log-sum-exp}$$ and $$\nabla\max_{\Omega}$$ becomes $$\operatorname{softmax}$$.
+* Negative-entropy is strongly convex function, and thus $$\sup _ { \boldsymbol { q } \in \triangle _ { D } } \langle \boldsymbol { x }, \boldsymbol { q }  \rangle - \Omega ( \boldsymbol { q } )$$ is a strongly-concave optimization problem.
 
 
 ## Differentiable dynamic programming
