@@ -8,7 +8,7 @@ I am a Research Fellow at SCALE@NTU. I obtained my PhD from School of Computer S
 
 I am broadly interested in many topics in numerical optimization, high-dimensional statistics, machine learning, and data mining.  At present, I focus on **representation learning**, **differentiable generative models** (differentiable functions supported hierarchical Bayesian models, variational inference, Hamilton Monte Carlo), and in particular, extending their applications in **spatial and temporal data analytics**.
 
-**Email**:  xli055 AT e.ntu.edu.sg; lixiucheng AT ntu.edu.sg; xiucheng90 AT gmail.com
+**Email**:  xli055 AT e.ntu.edu.sg; xiucheng90 AT gmail.com
 
 ---
 
