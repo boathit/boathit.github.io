@@ -16,7 +16,7 @@ tags: linear-algebra foundation random-topic
 
 The [pdf-version]({{ '/assets/pdfs/matrix-calculus4ml.pdf' | relative_url }}) is also available.
 
-## Remark on $$\langle, \rangle$$
+## Inner product notation
 
 We will use $$\langle \cdot, \cdot \rangle$$ to denote inner product for vector or Frobenius inner product for matrix, and use $$\odot$$ to denote Hadamard product.
 
@@ -74,10 +74,11 @@ $$
 * $$d ({X}^\top) = (d {X})^\top$$, transpose.
 * $$d \operatorname{tr}({X}) = \operatorname{tr}(d {X})$$, trace.
 * $$d {X} ^ {-1} = - {X}^{-1} (d {X}) {X}^{-1}$$, which can be obtained by differentiating $${X} {X}^{-1} = I$$.
-* $$d \vert{X}\vert = \operatorname{tr} (\operatorname{adj}(X) d {X})$$, where $$\operatorname{adj}(X)$$ is the adjoint matrix of $${X}$$; when $${X}$$ is invertible $$d \vert{X}\vert = \vert{X}\vert\operatorname{tr} ({X}^{-1} d {X})$$.
+* $$d \vert{X}\vert = \operatorname{tr} (\operatorname{adj}(X) d {X})$$, when $${X}$$ is invertible $$d \vert{X}\vert = \vert{X}\vert\operatorname{tr} ({X}^{-1} d {X})$$.
 * $$d({X} \odot {Y})=(d {X}) \odot {Y}+{X} \odot d {Y}$$, Hadamard product.
 * $$d \sigma({X}) = \sigma ' ({X}) \odot d {X}$$, where $$\sigma(\cdot)$$ is an element-wise function such as $$\operatorname{sigmoid}$$, $$\sin$$, etc.
 
+where $$\operatorname{adj}(X)$$ is the adjoint matrix of $${X}$$
 
 
 ### Trace Trick
@@ -86,7 +87,7 @@ $$
 * $$\operatorname{tr}(A^\top) = \operatorname{tr}(A)$$, null.
 * $$\operatorname{tr} (A \pm B) = \operatorname{tr}(A) \pm \operatorname{tr}(B)$$, null.
 * $$\operatorname{tr} (AB) = \operatorname{tr}(BA)$$ where $$A$$ and $$B^\top$$ have the same size.
-* $$\operatorname{tr}(A^\top (B \odot C)) = \operatorname{tr}((A \odot B)^\top C)$$ or $$\langle A, B \odot C \rangle = \langle A \odot B, C \rangle$$ , where $$A, B$$ and $$C$$ have the same size.
+* $$\operatorname{tr}(A^\top (B \odot C)) = \operatorname{tr}((A \odot B)^\top C)$$ or $$\langle A, B \odot C \rangle = \langle A \odot B, C \rangle$$, $$A,B,C$$ are compatible.
 
 
 
@@ -257,9 +258,24 @@ $$
 Hence,
 
 $$
-\nabla_{\mathbf{w}} f = X^\top \frac{\exp (X \mathbf{w})}{\langle\mathbf{1}, \exp (X \mathbf{w}) \rangle} - -X^\top \mathbf{y}.
+\nabla_{\mathbf{w}} f = X^\top \frac{\exp (X \mathbf{w})}{\langle\mathbf{1}, \exp (X \mathbf{w}) \rangle} - X^\top \mathbf{y}.
 $$
 
+#### Example 7
+
+Let $$L = f(Y), Y = WX$$ where $$f$$ maps a matrix to a scalar,
+
+$$
+\begin{align}
+d L = d f(Y) &= \left\langle \nabla_Y f, d Y \right\rangle \\
+&= \left\langle \nabla_Y f, d (W X) \right\rangle \\
+&= \left\langle \nabla_Y f, W dX + (dW)X\right\rangle \qquad (\text{using product rule of differentiation})\\
+&= \left\langle \nabla_Y f, W dX \right\rangle + \left\langle \nabla_Y f, (dW)X \right\rangle
+\end{align}
+$$
+
+* $$W$$ is constant, then $$d L = \left\langle \nabla_Y f, W dX \right\rangle = \left\langle W^\top \nabla_Y f, dX \right\rangle$$ thus $$\frac{\partial L}{\partial X} = W^\top \nabla_Y f$$.
+* $$X$$ is constant, then $$d L = \left\langle \nabla_Y f, (dW)X \right\rangle = \left\langle \nabla_Y f X^\top, dW \right\rangle$$ thus $$\frac{\partial L}{\partial W} = \nabla_Y f X^\top$$.
 
 ## The non-scalar function
 

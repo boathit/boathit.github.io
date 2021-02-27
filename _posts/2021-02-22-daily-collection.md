@@ -2,7 +2,7 @@
 layout: post
 comments: false
 title: "Daily Collection"
-date: 2021-02-24 0:00:00
+date: 2021-02-22 09:00:00
 tags: foundation random-topic
 ---
 
@@ -110,12 +110,11 @@ $$
 
 The product of $$p_1$$ and $$p_2$$ is a polynomial of $$2n-2$$ degree with $$2n-1$$ coefficients $$c_0, c_1, \ldots, c_{2n-2}$$ and $$c_k = \sum_{i=1}^k a_i b_{k-i}$$. In other words, $$\mathbf{c} = \mathbf{a} \circledast \mathrm{reverse}(\mathbf{b})$$, the convolution of $$a$$ and reverse of $$b$$.
 
-The convolution operation of two length $$n$$ vectors is of complexity $$O(n^2)$$. However, if we could represent $$p_1, p_2$$ using their value representations, we only need to do elementwise multiplication of their values evaluated at $$2n-1$$ distinct points and the result uniquely determines the polynomial $$p_1(x) \cdot p_2(x)$$. In this case, we need to pad $$a$$ and $$b$$ with zeros to be length of $$2n-1$$. 
+The convolution operation of two length $$n$$ vectors is of complexity $$O(n^2)$$. However, if we could represent $$p_1, p_2$$ using their value representations, we only need to do elementwise multiplication of their values evaluated at $$2n-1$$ distinct points and the result uniquely determines the polynomial $$p_1(x) \cdot p_2(x)$$. In this case, we need to pad $$a$$ and $$b$$ with zeros to be length of $$2n-1$$ like $$[0, \ldots, 0, a_0, \ldots, a_{n-1}]^\top$$ and $$[b_{n-1}, \ldots, b_0, 0, \ldots, 0]^\top$$.
 
-$$
+$$ 
 \left[
 \begin{array}{c}
-0\\
 0\\
 \vdots\\
 0\\
@@ -123,13 +122,12 @@ a_0\\
 \vdots\\
 a_{n-1}
 \end{array}
-\right], 
+\right] \odot 
 \left[
 \begin{array}{c}
 b_{n-1}\\
 \vdots\\
 b_0\\
-0\\
 0\\
 \vdots\\
 0
@@ -137,17 +135,17 @@ b_0\\
 \right].
 $$
 
-We could first transform the coefficient representation into the value representation by a linear map, and we can do elementwise product in the value representation to get $$p_1(x) \cdot p_2(x)$$. Then we can get back to the coefficient representation by the inverse linear map. However, the linear map (inverse linear map) itself is very expensive $$O(n^2)$$, so can we do better by carefully choosing the linear map?
+Hence, we could first transform the coefficient representation into the value representation by a linear map, and we can do elementwise product in the value representation to get $$p_1(x) \cdot p_2(x)$$. Then we can get back to the coefficient representation by the inverse linear map. However, the linear map (inverse linear map) itself is very expensive $$O(n^2)$$, so can we do better by carefully choosing the linear map?
 
-The FFT (Fast Fourier Transform) choose the $$n$$ distinct points to be $$\omega^0, \omega^1, \ldots, \omega^{n-1}$$ where $$\omega = e^{2 \pi i/n}$$, that is, the $$n$$ unitary roots in the unit circle and
+The FFT (Fast Fourier Transform) choose the $$n$$ distinct points to be $$\omega^0, \omega^1, \ldots, \omega^{n-1}$$ where $$\omega = e^{2 \pi i/n}$$, that is, the $$n$$ unitary roots in the unit circle and the linear map is defined by matrix
 
 $$
 \Omega = \frac{1}{\sqrt{n}}\left[\begin{array}{lllll} 
 1& 1& 1& \ldots& 1\\
-1& \omega^ {1 \cdot 1} & \omega^{2\cdot 1}&\ldots &\omega^{(n-1)\cdot 1}\\
-1& \omega^{1 \cdot 2}& \omega^{2 \cdot 2}&\ldots &\omega^{(n-1)\cdot 2}\\
+1& \omega^ {1 \cdot 1} & \omega^{1\cdot 2}&\ldots &\omega^{1\cdot (n-1)}\\
+1& \omega^{2 \cdot 1}& \omega^{2 \cdot 2}&\ldots &\omega^{2\cdot (n-1)}\\
 \vdots&\vdots & \vdots& &\vdots\\
-1& \omega^{1 \cdot (n-1)}& \omega^{2 \cdot (n-1)} & & \omega^{(n-1)\cdot (n-1)}
+1& \omega^{(n-1) \cdot 1}& \omega^{(n-1) \cdot 2} & & \omega^{(n-1)\cdot (n-1)}
 \end{array} \right]
 $$
 
@@ -160,3 +158,54 @@ $$
 $$
 
 FFT exploits such symmetry by reusing the intermediate computed results to accelerate the transformation. 
+
+#### Spectral Theorem
+
+The self-adjoint (Hermitian) operator $$A$$ has a complete set of orthonormal eigenvectors. Each eigenvalue is real.
+
+*Proof:* [ntu-note](http://spms.ntu.edu.sg/MathematicalSciences/Seminars/Documents/adams-lecture.pdf).
+
+#### Projector
+
+![]({{ '/assets/images/2021-02-26-projector.png' | relative_url }})
+{: style="width: 65%;" class="center"}
+*Figure Projector*
+{:.image-caption}
+
+Suppose $$P$$ is a projector that projects $$\mathbf{v}$$ onto $$P \mathbf{v}$$ along $$(I-P)\mathbf{v}$$. Let $$S_1 = \{P \mathbf{v} \mid \mathbf{v} \in \mathbb{C}^m\}$$ and $$S_2 = \{(I - P) \mathbf{v} \mid \mathbf{v} \in \mathbb{C}^m\}$$. Then $$P$$ seperates $$\mathbb{C}^m$$ into two space $$S_1$$ and $$S_2$$ such that $$S_1 \bigcap S_2 = \{0\}$$ and
+
+$$
+\begin{aligned}
+S_1 &= \mathrm{range}(P) = \mathrm{null}(I - P),\\
+S_2 &= \mathrm{range}(I - P) = \mathrm{null}(P).
+\end{aligned}
+$$
+
+*Proof*: We shall prove $$\mathrm{range}(I-P)=\mathrm{null}(P)$$ as follows.
+
+First, for any $$\mathbf{v} \in \mathrm{null}(P)$$ we have $$\mathbf{v} = \mathbf{v} - P \mathbf{v} = (I-P)\mathbf{v} \in \mathrm{range}(I-P)$$. Hence, $$\mathrm{null}(P) \subseteq \mathrm{range}(I-P)$$.
+
+Next, for any $$(I - P) \mathbf{v} \in \mathrm{range}(I - P)$$ we have $$P(I-P)\mathbf{v} = (P - P^2) \mathbf{v} = 0$$. Thus, $$\mathrm{range}(I-P) \subseteq \mathrm{null}(P)$$.
+
+Now, by writing $$P = I - (I - P)$$ we can obtain $$\mathrm{range}(P) = \mathrm{null}(I - P)$$.
+
+$$\mathrm{null}(P) \bigcap \mathrm{null}(I - P) = \{0\}$$ because for any $$\mathbf{v} \in \mathbb{C}^m$$ in both of them satisfies 
+
+$$
+\mathbf{v} = \underbrace{\mathbf{v} - P \mathbf{v}}_{\text{in null}(P)} = \underbrace{ (I - P) \mathbf{v}}_{\text{in null}(I - P)} = 0.
+$$
+
+□
+
+If $$P$$ is a projector and let $$\lambda$$ be its eigenval and $$\mathbf{v}$$ be the corresponding eigenvector then 
+
+$$
+\begin{array}{lll}
+P \mathbf{v} &= \lambda \mathbf{v}  &\Rightarrow P^2 \mathbf{v} &= \lambda P \mathbf{v} \Rightarrow\\ 
+P \mathbf{v} &= \lambda^2 \mathbf{v} &\Rightarrow \lambda \mathbf{v} &= \lambda^2 \mathbf{v}
+\end{array}
+$$
+
+If $$\mathbf{v} \ne 0$$ then $$\lambda = 0$$ or $$\lambda = 1$$.
+
+□
