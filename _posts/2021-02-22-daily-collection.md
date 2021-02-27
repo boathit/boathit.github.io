@@ -6,7 +6,7 @@ date: 2021-02-22 09:00:00
 tags: foundation random-topic
 ---
 
-> This note collects the fundamental concepts, theorems or interesting facts that come into mind in my daily learning.
+> This note collects the fundamental concepts, theorems or interesting facts that come into mind in my daily learning. It will be updated frequently and put in top, so its url is not permanent and changing dynamically.
 
 <!--more-->
 
@@ -159,11 +159,64 @@ $$
 
 FFT exploits such symmetry by reusing the intermediate computed results to accelerate the transformation. 
 
-#### Spectral Theorem
+#### Hermitian and Spectral Theorem
 
-The self-adjoint (Hermitian) operator $$A$$ has a complete set of orthonormal eigenvectors. Each eigenvalue is real.
+(**Definition.**) Let $$V$$ be a finite-dimensional vector space, and $$A: V \rightarrow V$$ be a linear operator. The adjoint of $$A$$ is the linear operator $$A^*: V \rightarrow V$$ characterized by
 
-*Proof:* [ntu-note](http://spms.ntu.edu.sg/MathematicalSciences/Seminars/Documents/adams-lecture.pdf).
+$$
+\langle A^* v, w \rangle = \langle v, A w \rangle \quad \forall v, w \in V.
+$$
+
+(**Proposition.**) The adjoint of $$A^*$$ is $$A$$.
+
+*Proof:* By the definition of adjoint $$\langle A^{**} v, w \rangle = \langle v, A^{*} w \rangle$$, thus it is sufficient to show $$\langle v, A^{*} w \rangle = \langle A v, w \rangle$$.
+
+$$
+\begin{aligned}
+\langle v, A^{*} w \rangle &= \overline{\langle A^{*} w, v \rangle} \quad \text{(conjugate symmetric)}\\
+&= \overline{\langle w, A v \rangle} \quad (\text{definition of } A^*)\\
+&= \langle A v, w \rangle. 
+\end{aligned}
+$$
+
+Proof is completed. □
+
+(**Definition.**) A linear operator $$A$$ is called self-adjoint or Hermitian if $$A^* = A$$.
+
+(**Proposition.**) The eigenvalues of Hermtian are real and the eigenvectors corresponding to different eigenvalues are orthogonal.
+
+*Proof:* Suppose $$\mathbf{v}$$ is the eigenvector corresponds to eigenvalue $$\lambda$$,
+
+$$
+\begin{aligned}
+\lambda \| \mathbf{v} \|_2^2 &= \langle v, A v \rangle \\
+&= \langle A v, v \rangle \quad (A \text{ is Hermitian})\\
+&= \overline{\langle v, A v \rangle} \quad (\text{conjugate symmetric})\\
+&= \overline{\lambda \| \mathbf{v} \|_2^2} \\
+&= \overline{\lambda}  \| \mathbf{v} \|_2^2,
+\end{aligned}
+$$
+
+thus we conclude $$\lambda$$ is real.
+
+Now suppose $$A \mathbf{v}_1 = \lambda_1  \mathbf{v}_1$$, $$A \mathbf{v}_2 = \lambda_2  \mathbf{v}_2$$, and $$\lambda_1 \ne \lambda_2$$,
+
+$$
+\begin{aligned}
+\lambda_1 \lambda_2 \langle \mathbf{v}_1, \mathbf{v}_2 \rangle &= \langle A  \mathbf{v}_1, A  \mathbf{v}_2 \rangle \\
+&=  \langle \mathbf{v}_1, A^* A  \mathbf{v}_2 \rangle \\
+&=  \langle \mathbf{v}_1, A^2  \mathbf{v}_2 \rangle \\
+&=  \langle \mathbf{v}_1, \lambda_2^2  \mathbf{v}_2 \rangle
+\end{aligned} \\ 
+\Rightarrow 
+(\lambda_1 \lambda_2 - \lambda_2^2) \langle \mathbf{v}_1, \mathbf{v}_2 \rangle = 0  \Rightarrow  \langle \mathbf{v}_1, \mathbf{v}_2 \rangle = 0.
+$$
+
+The proof is completed. □
+
+(**Spectral Theorem.**) The Hermitian operator $$A$$ has a complete set of orthonormal eigenvectors. Each eigenvalue is real.
+
+*Proof:* [ntu-note](http://spms.ntu.edu.sg/MathematicalSciences/Seminars/Documents/adams-lecture.pdf). □
 
 #### Projector
 
@@ -172,7 +225,7 @@ The self-adjoint (Hermitian) operator $$A$$ has a complete set of orthonormal ei
 *Figure Projector*
 {:.image-caption}
 
-Suppose $$P$$ is a projector that projects $$\mathbf{v}$$ onto $$P \mathbf{v}$$ along $$(I-P)\mathbf{v}$$. Let $$S_1 = \{P \mathbf{v} \mid \mathbf{v} \in \mathbb{C}^m\}$$ and $$S_2 = \{(I - P) \mathbf{v} \mid \mathbf{v} \in \mathbb{C}^m\}$$. Then $$P$$ seperates $$\mathbb{C}^m$$ into two space $$S_1$$ and $$S_2$$ such that $$S_1 \bigcap S_2 = \{0\}$$ and
+(**Proposition.**) Suppose $$P$$ is a projector that projects $$\mathbf{v}$$ onto $$P \mathbf{v}$$ along $$(I-P)\mathbf{v}$$. Let $$S_1 = \{P \mathbf{v} \mid \mathbf{v} \in \mathbb{C}^m\}$$ and $$S_2 = \{(I - P) \mathbf{v} \mid \mathbf{v} \in \mathbb{C}^m\}$$. Then $$P$$ seperates $$\mathbb{C}^m$$ into two space $$S_1$$ and $$S_2$$ such that $$S_1 \bigcap S_2 = \{0\}$$ and
 
 $$
 \begin{aligned}
@@ -195,9 +248,11 @@ $$
 \mathbf{v} = \underbrace{\mathbf{v} - P \mathbf{v}}_{\text{in null}(P)} = \underbrace{ (I - P) \mathbf{v}}_{\text{in null}(I - P)} = 0.
 $$
 
-□
+Proof is completed. □
 
-If $$P$$ is a projector and let $$\lambda$$ be its eigenval and $$\mathbf{v}$$ be the corresponding eigenvector then 
+(**Proposition.**) The eigenvalues of the projector is either 0 or 1.
+
+*Proof:* Suppose $$P$$ is a projector and let $$\lambda$$ be its eigenvalue and $$\mathbf{v}$$ be the corresponding eigenvector then 
 
 $$
 \begin{array}{lll}
@@ -206,6 +261,5 @@ P \mathbf{v} &= \lambda^2 \mathbf{v} &\Rightarrow \lambda \mathbf{v} &= \lambda^
 \end{array}
 $$
 
-If $$\mathbf{v} \ne 0$$ then $$\lambda = 0$$ or $$\lambda = 1$$.
+If $$\mathbf{v} \ne 0$$ then $$\lambda = 0$$ or $$\lambda = 1$$. □
 
-□

@@ -3,7 +3,7 @@ layout: post
 comments: false
 title: "Matrix Calculus"
 date: 2018-12-01 12:00:00
-tags: linear-algebra foundation random-topic
+tags: foundation random-topic
 ---
 
 > Matrix Calculus.
