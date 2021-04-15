@@ -4,7 +4,7 @@ layout: default
 
 ## LI Xiucheng (李修成)
 
-I am a Research Fellow at SCALE@NTU. I obtained my PhD from School of Computer Science and Engineering, Nanyang Technological University.
+I am a Research Fellow at SCALE@NTU. I obtained my PhD from School of Computer Science and Engineering, Nanyang Technological University, advisor, [CONG Gao](https://personal.ntu.edu.sg/gaocong).
 
 I am broadly interested in many topics in numerical optimization, high-dimensional statistics, machine learning, and data mining.  At present, I focus on **representation learning**, **differentiable generative models** (differentiable functions supported hierarchical Bayesian models, variational inference, Hamilton Monte Carlo), and in particular, extending their applications in **spatial and temporal data analytics**.
 
@@ -19,8 +19,6 @@ I am broadly interested in many topics in numerical optimization, high-dimension
 - *Shengnan Guo, Youfang Lin, Huaiyu Wan, Xiucheng Li, Gao Cong*. Learning Dynamics and Heterogeneity of Spatial-Temporal Graph Data for Traffic Forecasting, **TKDE 2021**. [pdf]({{ '/assets/pdfs/tkde21-traffic-forecasting.pdf' | relative_url }}).
 
 - *Kaiqi Zhao, Gao Cong, Xiucheng Li*. PGeoTopic: A Distributed Solution for Mining Geographical Topic Models, **TKDE 2020**. [pdf]({{ '/assets/pdfs/tkde20-pgeotopic.pdf' | relative_url }}).
-
-- Differentiable Generative Models for Trajectory Data Analytics, **Thesis**. [pdf]({{ '/assets/pdfs/lixiucheng-thesis.pdf' | relative_url }}).
 
 - *Xiucheng Li, Gao Cong, Yun Cheng*. Spatial Transition Learning on Road Networks with Deep Probabilistic Models, **ICDE 2020**. [pdf]({{ '/assets/pdfs/icde20-deepst.pdf' | relative_url }}); [code](https://github.com/boathit/deepst).
 

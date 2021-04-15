@@ -6,7 +6,7 @@ date: 2021-02-22 09:00:00
 tags: foundation random-topic
 ---
 
-> This note collects the fundamental concepts, theorems or interesting facts that come into mind in my daily learning. It will be updated frequently and put in top, so its url is not permanent and changing dynamically.
+> This note collects the fundamental concepts, theorems or interesting facts that come into mind in my daily learning. It will be updated frequently, and its url is not permanent and changing dynamically.
 
 <!--more-->
 
@@ -39,6 +39,63 @@ $$
 $$
 \liminf x_n = \sup_{k \geq 1} \inf_{n \geq k} x_n.
 $$
+
+#### Cantor set
+
+Let $$F_0$$ be the interval $$[0, 1]$$. We remove the open interval $$(\frac{1}{3}, \frac{2}{3})$$ from $$F_0$$ and denote the remaining closed set by $$F_1$$. Then we remove the middle interval of length $$\left(\frac{1}{3}\right)^2$$ from each of the two intervals of $$F_1$$ and denote the remaining closed set by $$F_2$$ and so forth as the *Figure Cantor Set* shown.
+
+![]({{ '/assets/images/2021-03-02-3-cantor.png' | relative_url }})
+{: style="width: 65%;" class="center"}
+*Figure Cantor Set*
+{:.image-caption}
+
+Note that we can scale $$F_0$$ by $$\frac{1}{3}$$ to get the left part of $$F_1$$ and then shift the left part by $$\frac{2}{3}$$ to get the right part, that is, 
+
+$$
+F_1 = \frac{1}{3} F_0 \bigcup \left(\frac{1}{3} F_0 + \frac{2}{3}\right).
+$$
+
+Similarly, if we scale $$\left[0, \frac{1}{3}\right]$$ and $$\left[\frac{2}{3}, 1\right]$$ by $$\frac{1}{3}$$ we could map them to intervals $$\left[0, \frac{1}{9}\right]$$ and $$\left[\frac{2}{9}, \frac{1}{3}\right]$$, respectively. The two intervals are exactly the left part of $$F_2$$ and we can shift them by $$\frac{2}{3}$$ to get the right part of $$F_2$$, that is,
+
+$$
+F_2 = \frac{1}{3} F_1 \bigcup \left(\frac{1}{3} F_1 + \frac{2}{3}\right).
+$$
+
+Note that the left part of $$F_2$$ is still ranging from $$0$$ to $$\frac{1}{3}$$ and if we scale it by $$\frac{1}{3}$$ we map these intervals into $$\left[0, \frac{1}{9}\right]$$ again. Also, the right part of $$F_2$$ will be mapped into $$\left[\frac{2}{9}, \frac{1}{3}\right]$$ by scaling $$\frac{1}{3}$$. This implies,
+
+$$
+F_n = \frac{1}{3} F_{n-1} \bigcup \left(\frac{1}{3} F_{n-1} + \frac{2}{3}\right),
+$$
+
+holds for $$n = 1, 2, \ldots$$.
+
+The Cantor set is defined as $$F = \bigcap_{n=0}^{\infty} F_n$$. If we represent all numbers in $$[0, 1]$$ in the triadic system, that is, $$\frac{1}{3} a_1 + \frac{1}{3^2} a_2 + \ldots$$ where $$a_n \in \{0, 1, 2 \}$$. Each $$x \in [0, 1]$$ can be represented by a sequence of $$a_1, a_2, \ldots$$, and 
+
+$$
+\begin{aligned}
+0 &= 0, 0, \ldots\\
+1 &= 2, 2, \ldots 
+\end{aligned}
+$$
+
+For a $$x = a_1, a_2, \ldots$$ we can interpret the operations $$g$$ of the following
+
+$$
+\begin{aligned}
+\frac{1}{3} &\longrightarrow  0, a_1, a_2, \ldots\\
+\frac{1}{3}x + \frac{2}{3} &\longrightarrow  2, a_1, a_2, \ldots
+\end{aligned}
+$$
+
+as prepending 0 and 2 to the sequence $$a_n$$, respectively.
+
+Starting from sequences $$0, 0, \ldots$$, $$2, 2, \ldots$$ and transforming sequences using the above two operations we could generate all possible sequences consisting of 0 and 2. In other words,
+
+$$
+F \stackrel{g}{\longrightarrow} \text{all possible sequences of 0, 2}.
+$$
+
+However, the set of such sequences has the power of the continuum, which can be observed by replacing 2 to 1 and the set corresponds to a binary representation of all numbers in $$[0, 1]$$. Hence, given any $$x \in [0, 1]$$ its preimage in $$F$$ is unique. This implies that $$F$$ has cardinal number not less than the cardinal number of the continuum.
 
 #### Convergence in probability and distribution
 
@@ -79,6 +136,11 @@ $$
 #### Dice rolling problem
 
 Let $$X$$ be the number of steps taken to observe two consecutive 6 when rolling a fair dice, what is its distribution?
+
+![]({{ '/assets/images/2021-03-01-2-dice.png' | relative_url }})
+{: style="width: 65%;" class="center"}
+*Figure Dice Rolling*
+{:.image-caption}
 
 Since we need to roll at least two times to observe two consecutive 6, $$X-1$$ is a geometric distribution. Let $$X_1$$ be the number of steps taken to see the first 6 and $$X_2$$ be the number of steps taken to see two consecutive 6 after we have observed the first 6, and $$A$$ be the event of observing 6 in the next step when 6 is observed in the present step. Then,
 $$X = X_1 + X_2$$ and
@@ -394,3 +456,24 @@ $$
 
 If $$v \ne 0$$ then $$\lambda = 0$$ or $$\lambda = 1$$. □
 
+![]({{ '/assets/images/2021-03-02-1-orthogonal-projector.png' | relative_url }})
+{: style="width: 65%;" class="center"}
+*Figure Orthogonal Projector*
+{:.image-caption}
+
+(**Orthogonal Projector.**) An orthogonal projector projects the space onto a subspace $$S_1$$ along a subspace $$S_2$$, where $$S_1$$ and $$S_2$$ are orthogonal. Any projector that is hermitian is orthogonal projector.
+
+$$v_2 = v - P v = (I - P) v \in \mathrm{range}(I - P) = \mathrm{null}(P) = S_2.$$
+
+For $$v_2 \in S_2$$, $$P v_2 = 0$$ since $$S_2 = \mathrm{null}(P)$$.
+
+![]({{ '/assets/images/2021-03-02-2-reflector.png' | relative_url }})
+{: style="width: 65%;" class="center"}
+*Figure Reflector*
+{:.image-caption}
+
+(**Proposition.**) If $$P$$ is an orthogonal projector, $$I - 2P$$ is a unitary matrix.
+
+*Proof:* It is easy to verify $$(I - 2P)(I - 2P)^* = I$$. □
+
+As the *Figure Reflector* shown $$(I - 2P)v = (I - P)v - Pv = v_2 - v_1$$, that is, $$I - 2P$$ is a reflector. It is used to construct reflector in Householder QR Factorization.
