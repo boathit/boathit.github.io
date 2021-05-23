@@ -6,9 +6,9 @@ layout: default
 
 I am a Research Fellow at SCALE@NTU. I obtained my PhD from School of Computer Science and Engineering, Nanyang Technological University, advisor, [CONG Gao](https://personal.ntu.edu.sg/gaocong).
 
-I am broadly interested in many topics in numerical optimization, high-dimensional statistics, machine learning, and data mining.  At present, I focus on **representation learning**, **differentiable generative models** (differentiable functions supported hierarchical Bayesian models, variational inference, Hamilton Monte Carlo), and in particular, extending their applications in **spatial and temporal data analytics**.
+I am broadly interested in many topics in numerical optimization, high-dimensional statistics, machine learning and data mining.  At present, I focus on **representation learning**, **Bayesian generative models**, and in particular, extending their applications in **spatial and time series data analysis**.
 
-**Email**:  xli055 AT e.ntu.edu.sg; xiucheng90 AT gmail.com
+**Email**: xiucheng90 AT gmail.com; xli055 AT e.ntu.edu.sg
 
 ---
 
@@ -32,6 +32,8 @@ I am broadly interested in many topics in numerical optimization, high-dimension
 
 - *Yun Cheng, Xiucheng Li, Yan Li*. Finding Dynamic Co-evolving Zones in Spatial-Temporal Time Series Data, **ECML/PKDD 2016**. [pdf]({{ '/assets/pdfs/ecml-pkdd16-coevolving.pdf' | relative_url }}).
 
-- *Yun Cheng, Xiucheng Li, Zhijun Li, Shouxu Jiang*. Fine-Grained Air Quality Monitoring Based on Gaussian Process Regression, **ICONIP 2015**. [pdf]({{ '/assets/pdfs/iconip-final.pdf' | relative_url }}).
+- *Yilong Li, Yu Wang, Yun Cheng, Xiucheng Li, Guoliang Xing*. A Qi wireless charging based system for robust user-initiated indoor location services, **SECON 2015**.
+
+- *Yun Cheng, Xiucheng Li, Zhijun Li, Shouxu Jiang*. Fine-Grained Air Quality Monitoring Based on Gaussian Process Regression, **ICONIP 2014**. [pdf]({{ '/assets/pdfs/iconip-final.pdf' | relative_url }}).
 
 - *Yun Cheng, Xiucheng Li, Zhijun Li, Shouxu Jiang, YiLong Li, Jia Ji, Xiaofan (Fred) Jiang*. AirCloud: A Cloud-based Air-Quality Monitoring System for Everyone, **SenSys 2014**. [pdf]({{ '/assets/pdfs/sensys-final.pdf' | relative_url }}).

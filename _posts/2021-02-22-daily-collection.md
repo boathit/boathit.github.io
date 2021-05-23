@@ -236,7 +236,7 @@ $$
 \end{aligned}
 $$
 
-where $$a_i$$ is the conjugate transpose of $$i$$-th row of $$A$$ and the upper bound can be attained by setting $$x_j = e^{-\theta_j}$$ if $$\bar{a}_{ij} = r_j e^{\theta_j}$$.
+where $$a_i$$ is the conjugate transpose of $$i$$-th row of $$A$$ and the upper bound can be attained by setting $$x_j = e^{-i\theta_j}$$ if $$\bar{a}_{ij} = r_j e^{i\theta_j}$$.
 
 #### Polynomial representation and FFT
 
@@ -343,7 +343,7 @@ which is $$O(n \log n)$$. The whole picture is depicted in the figure.
 *Proof:* Suppose $$Q$$ is unitary matrix and $$Q v = \lambda v$$,
 
 $$
-\|v\|_2^2 = \langle Q v, Q v \rangle = \langle \lambda x, \lambda x \rangle = \bar{\lambda}\lambda \|v\|_2^2 = \vert \lambda \vert^2 \|v\|_2^2
+\|v\|_2^2 = \langle Q v, Q v \rangle = \langle \lambda v, \lambda v \rangle = \bar{\lambda}\lambda \|v\|_2^2 = \vert \lambda \vert^2 \|v\|_2^2
 $$
 
 which concludes $$\vert \lambda \vert^2 = 1$$. □
