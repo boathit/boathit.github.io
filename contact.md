@@ -22,7 +22,7 @@ I am broadly interested in many topics in numerical optimization, high-dimension
 
 ## Publications
 
-- *David Alexander Tedjopurnomo, Xiucheng Li, Zhifeng Bao, Gao Cong, Farhana Choudhury, Kai Qin*. Similar Trajectory Search with Spatio-temporal Deep Representation Learning, **ACM TIST 2021**.
+- *David A. Tedjopurnomo, Xiucheng Li, Zhifeng Bao, Gao Cong, Farhana Choudhury, Kai Qin*. Similar Trajectory Search with Spatio-temporal Deep Representation Learning, **ACM TIST 2021**.
 
 - *Xiucheng Li, Jin Yao Chin, Yile Chen, Gao Cong*. Sinkhorn Collaborative Filtering, **WWW 2021**. [pdf]({{ '/assets/pdfs/www21-sinkhorncf.pdf' | relative_url }}); [code](https://github.com/boathit/sinkhorncf).
 
