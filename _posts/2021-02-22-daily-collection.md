@@ -236,7 +236,9 @@ $$
 \end{aligned}
 $$
 
-where $$a_i$$ is the conjugate transpose of $$i$$-th row of $$A$$ and the upper bound can be attained by setting $$x_j = e^{-i\theta_j}$$ if $$\bar{a}_{ij} = r_j e^{i\theta_j}$$.
+where $$a_i$$ is the conjugate transpose of $$i$$-th row of $$A$$ and the upper bound can be attained by setting $$x_j = e^{-i\theta_j}$$ if $$\bar{a}_{ij} = r_j e^{i\theta_j}$$ (actually $$x_j$$ can be any value on the unit circle). We can also apply Hölder's inequality in the second line to obtain the result, that is,
+
+$$\sup_{\| x \|_\infty = 1} \vert a_i^* x \vert \leq \|a_i\|_1 \|x\|_\infty = \|a_i\|_1.$$
 
 #### Polynomial representation and FFT
 

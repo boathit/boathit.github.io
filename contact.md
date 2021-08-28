@@ -12,7 +12,17 @@ I am broadly interested in many topics in numerical optimization, high-dimension
 
 ---
 
+## Academic Services
+
+**Invited reviewer and PC member**: IEEE TKDE 2018, 2019, 2020, 2021; IEEE TITS 2021; PAKDD 2020, 2021; AAAI 2021; CIKM 2021; ICDE 2022.
+
+**External reviewer**: KDD; WWW; CIKM; ICDM; DASSFA; AAAI; ICDE; VLDB; WSDM.
+
+---
+
 ## Publications
+
+- *David Alexander Tedjopurnomo, Xiucheng Li, Zhifeng Bao, Gao Cong, Farhana Choudhury, Kai Qin*. Similar Trajectory Search with Spatio-temporal Deep Representation Learning, **ACM TIST 2021**.
 
 - *Xiucheng Li, Jin Yao Chin, Yile Chen, Gao Cong*. Sinkhorn Collaborative Filtering, **WWW 2021**. [pdf]({{ '/assets/pdfs/www21-sinkhorncf.pdf' | relative_url }}); [code](https://github.com/boathit/sinkhorncf).
 
