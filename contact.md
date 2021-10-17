@@ -22,6 +22,10 @@ I am broadly interested in many topics in numerical optimization, high-dimension
 
 ## Publications
 
+[dec1]({{ '/assets/pdfs/dec1.pdf' | relative_url }}).
+
+- *Yile Chen, Xiucheng Li, Gao Cong, Cheng Long, Zhifeng Bao*. Robust Road Network Representation Learning: When Traffic Patterns Meet Traveling Semantics, **CIKM 2021**.
+
 - *David A. Tedjopurnomo, Xiucheng Li, Zhifeng Bao, Gao Cong, Farhana Choudhury, Kai Qin*. Similar Trajectory Search with Spatio-temporal Deep Representation Learning, **ACM TIST 2021**.
 
 - *Xiucheng Li, Jin Yao Chin, Yile Chen, Gao Cong*. Sinkhorn Collaborative Filtering, **WWW 2021**. [pdf]({{ '/assets/pdfs/www21-sinkhorncf.pdf' | relative_url }}); [code](https://github.com/boathit/sinkhorncf).
