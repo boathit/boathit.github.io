@@ -22,8 +22,6 @@ I am broadly interested in many topics in numerical optimization, high-dimension
 
 ## Publications
 
-[dec4]({{ '/assets/pdfs/dec4.pdf' | relative_url }}).
-
 - *Yile Chen, Xiucheng Li, Gao Cong, Cheng Long, Zhifeng Bao*. Robust Road Network Representation Learning: When Traffic Patterns Meet Traveling Semantics, **CIKM 2021**.
 
 - *David A. Tedjopurnomo, Xiucheng Li, Zhifeng Bao, Gao Cong, Farhana Choudhury, Kai Qin*. Similar Trajectory Search with Spatio-temporal Deep Representation Learning, **ACM TIST 2021**.
