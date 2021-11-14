@@ -4,11 +4,11 @@ layout: default
 
 ## LI Xiucheng (李修成)
 
-I am a Research Fellow at SCALE@NTU. I obtained my PhD from School of Computer Science and Engineering, Nanyang Technological University, advisor, [CONG Gao](https://personal.ntu.edu.sg/gaocong).
+I am an Assistant Professor of School of Computer Science and Technology, Harbin Institute of Technology (Shenzhen), HITSZ. Prior to joining HITSZ, I was a Research Fellow at SCALE@NTU and completed my PhD study at School of Computer Science and Engineering, Nanyang Technological University, advisor, [CONG Gao](https://personal.ntu.edu.sg/gaocong).
 
 I am broadly interested in many topics in numerical optimization, high-dimensional statistics, machine learning and data mining.  At present, I focus on **representation learning**, **Bayesian generative models**, and in particular, extending their applications in **spatial and time series data analysis**.
 
-**Email**: xiucheng90 AT gmail.com; xli055 AT e.ntu.edu.sg
+**Email**: lixiucheng AT hit.edu.cn; xli055 AT e.ntu.edu.sg
 
 ---
 
@@ -21,6 +21,8 @@ I am broadly interested in many topics in numerical optimization, high-dimension
 ---
 
 ## Publications
+
+- *Yile Chen, Xiucheng Li, Gao Cong, Cheng Long, Zhifeng Bao, Shang Liu, Wanli Gu, Fuzheng Zhang*. Points-of-Interest Relationship Inference with Spatial-enriched Graph Neural Networks, **VLDB 2021**.
 
 - *Yile Chen, Xiucheng Li, Gao Cong, Cheng Long, Zhifeng Bao*. Robust Road Network Representation Learning: When Traffic Patterns Meet Traveling Semantics, **CIKM 2021**.
 
