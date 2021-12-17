@@ -67,7 +67,7 @@ $$
 The predictive probability of a new data point $$X$$ is calculated as follows:
 
 $$
-p(X = 1\vertx, \alpha) = \int p(X=1 \vert \theta) p(\theta \vert x, \alpha) \text{d} \theta = \int \theta p(\theta \vert x, \alpha) \text{d} \theta = \mathbb{E}[\theta \vert x, \alpha].
+p(X = 1 \vert x, \alpha) = \int p(X=1 \vert \theta) p(\theta \vert x, \alpha) \text{d} \theta = \int \theta p(\theta \vert x, \alpha) \text{d} \theta = \mathbb{E}[\theta \vert x, \alpha].
 $$
 
 ## Categorical distribution and Dirichlet prior
