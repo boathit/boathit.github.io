@@ -4,7 +4,7 @@ layout: default
 
 ## LI Xiucheng (李修成)
 
-I am an Assistant Professor of School of Computer Science and Technology, Harbin Institute of Technology (Shenzhen)-哈尔滨工业大学 (深圳), HITSZ-哈工大深圳校区. Prior to joining HITSZ, I was a Research Fellow at SCALE@NTU and completed my PhD study at School of Computer Science and Engineering, Nanyang Technological University, advisor, [CONG Gao](https://personal.ntu.edu.sg/gaocong).
+I am an Assistant Professor of School of Computer Science and Technology, Harbin Institute of Technology (Shenzhen). Prior to joining HITSZ, I was a Research Fellow at SCALE@NTU and completed my PhD study at School of Computer Science and Engineering, Nanyang Technological University, advisor, [CONG Gao](https://personal.ntu.edu.sg/gaocong).
 
 I am broadly interested in many topics in numerical optimization, high-dimensional statistics, machine learning and data mining.  At present, I focus on **representation learning**, **Bayesian generative models**, and in particular, extending their applications in **spatial and time series data analysis**.
 
