@@ -5,6 +5,8 @@ _site
 .sass-cache
 .jekyll-metadata
 .idea*
+.vscode
+.metals
 *~
 *.gem
 .ipynb_checkpoints
