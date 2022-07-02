@@ -8,7 +8,6 @@ profile_url: "http://boathit.github.io"
 # Build settings
 markdown: kramdown
 highlighter: rouge
-usemathjax: true
 excerpt_separator: <!--more-->
 plugins:
   - jekyll-feed

@@ -17,4 +17,4 @@ _site
 *.out
 *.synctex.gz
 _latex/
-
+_posts/_*
