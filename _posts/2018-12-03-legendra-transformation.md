@@ -127,7 +127,7 @@ could attain.
 
 ## Applications
 
-[Smoothed max operator]({{ site.baseurl }}{% post_url 2019-06-01-differentiable-dp%}#smoothed-max-operator).
+[Smoothed max operator](https://arxiv.org/abs/1802.03676).
 
 
 

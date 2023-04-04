@@ -51,7 +51,7 @@ $$w_{t+1} \leftarrow w_{t} - x_{n(t)}$$
 对于线性可分的训练数据，PLA 经过若干步迭代后一定会找到一个线性可分的超平面 $$w_f$$。
 
 * claim 1: $$w_f^T w_t$$ is increasing by updating with any $$(x_{n(t)}, y_{n(t)})$$
-    
+  
     $$
     \begin{align}
     w_f^T w_{t+1} &= w_f^T (w_t + y_{n(t)} x_{n(t)}) \\
@@ -60,7 +60,7 @@ $$w_{t+1} \leftarrow w_{t} - x_{n(t)}$$
     \frac{w_f^T w_{T}}{\|w_f\|} &\ge \rho T, \quad \rho = \min_n \frac{y_n w_f^T x_n}{\|w_f\|}.
     \end{align}
     $$
-  
+
 
 * claim 2: $$\|w_T\|^2 \leq T \cdot \text{constant}$$ 
 
@@ -179,6 +179,7 @@ $$
   $$\mathcal{H}$$ contains h, where each $$h(x) = +1 ~\text{iff}~ x \text{ in a convex set}, -1$$ otherwise 将 $$N$$ 个点排成一个圆，并将所有的正例顺次连接，构成一个凸多边形，这个凸多边形的边界即构成了满足条件的 $$h$$，由于每个点有两个选择，因此 $$m_\mathcal{H}(N) = 2^N$$
   
   
+
 **Break Point** $$m_\mathcal{H}(k) < 2^k$$ and if $$k$$ is break point $$k+1, k+2, \ldots$$ also break points.
 
 * Positive rays:  break point at 2

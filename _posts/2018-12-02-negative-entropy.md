@@ -102,7 +102,7 @@ $$
 \operatorname{max}_{\eta}(\mathbf{x}) = \sup_{\mathbf{q} \in \triangle_+} \langle \mathbf{q}, \mathbf{x} \rangle - \eta(\mathbf{q})
 $$
 
-where the r.h.s is a strongly concave function w.r.t $$\mathbf{q}$$, more details is available [here]({{ site.baseurl }}{% post_url 2019-06-01-differentiable-dp%}).
+where the r.h.s is a strongly concave function w.r.t $$\mathbf{q}$$, more details is available in the [paper](https://arxiv.org/abs/1802.03676).
 
 ### Smoothed Wasserstain distance
 

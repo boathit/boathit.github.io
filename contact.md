@@ -22,6 +22,8 @@ I am broadly interested in many topics in numerical optimization, high-dimension
 
 ## Publications
 
+- *Shuai Liu, Xiucheng Li, Gao Cong, Yile Chen, Yue Jiang*. Multivariate Time-series Imputation with Disentangled Temporal Representations, **ICLR 2023**. [pdf](https://openreview.net/pdf?id=rdjeCNUS6TG).
+
 - *Yile Chen, Xiucheng Li, Gao Cong, Cheng Long, Zhifeng Bao, Shang Liu, Wanli Gu, Fuzheng Zhang*. Points-of-Interest Relationship Inference with Spatial-enriched Graph Neural Networks, **VLDB 2021**. [pdf]({{ '/assets/pdfs/vldb22-poi-relation.pdf' | relative_url }}).
 
 - *Yile Chen, Xiucheng Li, Gao Cong, Cheng Long, Zhifeng Bao*. Robust Road Network Representation Learning: When Traffic Patterns Meet Traveling Semantics, **CIKM 2021**. [pdf]({{ '/assets/pdfs/cikm21-rnr.pdf' | relative_url }}).
