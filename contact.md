@@ -14,7 +14,7 @@ I am broadly interested in many topics in numerical optimization, high-dimension
 
 ## Academic Services
 
-**Invited reviewer and PC member**: IEEE TKDE 2018, 2019, 2020, 2021; IEEE TITS 2021; PAKDD 2020, 2021; AAAI 2021; CIKM 2021; ICDE 2022.
+**Invited reviewer and PC member**: IEEE TKDE; IEEE TITS; PAKDD; AAAI; IJCAI; CIKM; ICDE.
 
 **External reviewer**: KDD; WWW; CIKM; ICDM; DASSFA; AAAI; ICDE; VLDB; WSDM.
 
