@@ -6,7 +6,7 @@ date: 2021-02-22 09:00:00
 tags: foundation random-topic
 ---
 
-> This note collects the fundamental concepts, theorems or interesting facts that come into mind in my daily learning. It will be updated frequently, and its url is not permanent and changing dynamically.
+> This note collects the fundamental concepts, theorems or interesting facts that come into mind in my daily learning.
 
 <!--more-->
 

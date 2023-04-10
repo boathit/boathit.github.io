@@ -6,7 +6,7 @@ layout: default
 
 I am an Assistant Professor of School of Computer Science and Technology, Harbin Institute of Technology (Shenzhen). Prior to joining HITSZ, I was a Research Fellow at SCALE@NTU and completed my PhD study at School of Computer Science and Engineering, Nanyang Technological University, advisor, [CONG Gao](https://personal.ntu.edu.sg/gaocong).
 
-I am broadly interested in many topics in numerical optimization, high-dimensional statistics, machine learning and data mining.  At present, I focus on **representation learning**, **Bayesian generative models**, and in particular, extending their applications in **spatial and time series data analysis**.
+I am broadly interested in many topics in high-dimensional statistics, machine learning and data mining.  At present, I am focused on **representation learning**, **generative models and probabilistic inference**, **spatial and time series data analysis**. You can learn more about my interests from the [notes]({{ '/index.html' | relative_url }}).
 
 **Email**: lixiucheng AT hit.edu.cn; xli055 AT e.ntu.edu.sg
 
