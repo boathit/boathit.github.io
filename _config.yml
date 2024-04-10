@@ -1,5 +1,5 @@
-title: Xiucheng Notes
-name: "Xiucheng's Learning Notes"
+title: XC
+name: "XC"
 author: Xiucheng Li
 baseurl: ""
 description: Document my learning notes.
@@ -15,6 +15,7 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - _posts/other_blogs
 kramdown:
   input: GFM
   auto_ids: true
