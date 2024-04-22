@@ -8,7 +8,7 @@ Assistant Professor of School of Computer Science and Technology at Harbin Insti
 
 * **Previously**: PhD, School of Computer Science and Engineering, Nanyang Technological University
 * **Advisor**: [Gao Cong](https://personal.ntu.edu.sg/gaocong)
-* **Office**: Info-Tech Building 1906, HIT District, University Town of Shenzhen
+* **Office**: Info-Tech Building 1906, HIT District, University Town of Shenzhen (哈工大信息楼)
 * **Email**: lixiucheng [at] hit.edu.cn; xli055 [at] e.ntu.edu.sg
 
 ---
@@ -19,6 +19,8 @@ Machine learning and data mining, with a focus on sequence and probabilistic mod
 * Time series data modeling and sequence models.
 * Self-supervised learning, structured and interpretable representation learning.
 * Probabilistic generative models.
+* Compact deep learning by exploring the underlying symmetry and structures.
+
 
 ---
 
@@ -46,7 +48,7 @@ Machine learning and data mining, with a focus on sequence and probabilistic mod
 
 - **Points-of-Interest Relationship Inference with Spatial-enriched Graph Neural Networks**\
     Yile Chen, <ins>Xiucheng Li</ins>, Gao Cong, Cheng Long, Zhifeng Bao, Shang Liu, Wanli Gu, Fuzheng Zhang\
-    *International Conference on Very Large Data Bases* (**VLDB**), 2021 [[PDF]]({{ '/assets/pdfs/cikm21-rnr.pdf' | relative_url }})
+    *International Conference on Very Large Data Bases* (**VLDB**), 2021 [[PDF]]({{ '/assets/pdfs/vldb22-poi-relation.pdf' | relative_url }})
 
 - **Robust Road Network Representation Learning: When Traffic Patterns Meet Traveling Semantics**\
   Yile Chen, <ins>Xiucheng Li</ins>, Gao Cong, Cheng Long, Zhifeng Bao\
