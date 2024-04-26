@@ -8,7 +8,7 @@ Assistant Professor of School of Computer Science and Technology at Harbin Insti
 
 * **Previously**: PhD, School of Computer Science and Engineering, Nanyang Technological University
 * **Advisor**: [Gao Cong](https://personal.ntu.edu.sg/gaocong)
-* **Office**: Info-Tech Building 1906, HIT District, University Town of Shenzhen (哈工大信息楼)
+* **Office**: Info-Tech Building 1906, HIT District, University Town of Shenzhen
 * **Email**: lixiucheng [at] hit.edu.cn; xli055 [at] e.ntu.edu.sg
 
 ---

@@ -6,7 +6,7 @@ date: 2021-02-22 09:00:00
 tags: foundation random-topic
 ---
 
-> This note collects the fundamental concepts, theorems or interesting facts that come into mind in my daily learning. It will be updated frequently, and its url is not permanent and changing dynamically.
+> Random Topics.
 
 <!--more-->
 
@@ -479,3 +479,7 @@ For $$v_2 \in S_2$$, $$P v_2 = 0$$ since $$S_2 = \mathrm{null}(P)$$.
 *Proof:* It is easy to verify $$(I - 2P)(I - 2P)^* = I$$. □
 
 As the *Figure Reflector* shown $$(I - 2P)v = (I - P)v - Pv = v_2 - v_1$$, that is, $$I - 2P$$ is a reflector. It is used to construct reflector in Householder QR Factorization.
+
+#### Laplacian
+
+[The Laplace Operator]({{ '/2024/04/25/laplacian' | relative_url }})
