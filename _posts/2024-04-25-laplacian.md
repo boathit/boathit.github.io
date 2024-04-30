@@ -3,7 +3,7 @@ layout: post
 comments: false
 title: "The Laplace Operator"
 date: 2024-04-25 09:00:00
-tags: foundation differential-equation harmonic-analysis
+tags: foundation vector-calculus differential-equation differential-geometry
 ---
 
 > The Laplacian and its various forms in different coordinates.
@@ -14,19 +14,19 @@ tags: foundation differential-equation harmonic-analysis
 * TOC
 {:toc}
 
-Let $$w$$ be the function of $$x, y$$ and its Laplacian is defined as the divergence of the gradient of $$w$$ (w.r.t $$x, y$$), i.e., $$\nabla \cdot \nabla w$$ and 
+Let $$u$$ be the function of $$x, y$$ and its Laplacian is defined as the divergence of the gradient of $$u$$ (w.r.t $$x, y$$), i.e., $$\nabla \cdot \nabla u$$ and 
 the Laplacian in Cartesian coordinate is given as 
 
 $$
 \begin{equation}
 \tag{laplacian}\label{eq:laplacian}
-\Delta w = \frac{\partial^2 w}{\partial x^2} + \frac{\partial^2 w}{\partial y^2}.
+\nabla \cdot \nabla u = \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2}.
 \end{equation}
 $$
 
 Now we generalize the Laplacian into three different coordinates most commonly used in mathematical physics equations, namely, the polar coordinate, cylindrical coordinate, and spherical coordinate. The three coordinate systems characterize the Euclidean space from different perspective, and each of them has its unique convenience under different situations.
 
-### The Laplacian in Polar Coordinate
+### The Laplacian in polar coordinate
 
 We have the transformation between the Cartesian coordinate and polar coordinate
 
@@ -40,25 +40,25 @@ y &= r \sin \theta.
 \end{equation}
 $$
 
-To establish the Laplacian in the polar coordinate, we need to represent the Laplace operator $$\Delta$$ in Eq. \eqref{eq:laplacian} with the variables $$r, \theta$$.
-This is possible if we can represent $${\partial^2 w}/{\partial x^2}$$ and $${\partial^2 w}/{\partial y^2}$$ in terms of $${\partial^2 w}/{\partial r^2}$$, $${\partial^2 w}/{\partial \theta^2}$$, $${\partial w}/{\partial r}$$, and $${\partial w}/{\partial \theta}$$. To compute the second order partial derivative $${\partial^2 w}/{\partial x^2}$$ and $${\partial^2 w}/{\partial y^2}$$, we need to represent the first order partial derivative $${\partial w}/{\partial x}$$ and $${\partial w}/{\partial y}$$ with $${\partial w}/{\partial r}$$ and $${\partial w}/{\partial \theta}$$. 
+To establish the Laplacian in the polar coordinate, we need to represent the Laplace operator $$\nabla \cdot \nabla$$ in Eq. \eqref{eq:laplacian} with the variables $$r, \theta$$.
+This is possible if we can represent $${\partial^2 u}/{\partial x^2}$$ and $${\partial^2 u}/{\partial y^2}$$ in terms of $${\partial^2 u}/{\partial r^2}$$, $${\partial^2 u}/{\partial \theta^2}$$, $${\partial u}/{\partial r}$$, and $${\partial u}/{\partial \theta}$$. To compute the second order partial derivative $${\partial^2 u}/{\partial x^2}$$ and $${\partial^2 u}/{\partial y^2}$$, we need to represent the first order partial derivative $${\partial u}/{\partial x}$$ and $${\partial u}/{\partial y}$$ with $${\partial u}/{\partial r}$$ and $${\partial u}/{\partial \theta}$$. 
 
 To this end, we treat $$(x, y)$$ as the independent variables and $$(r, \theta)$$ the intermediate variables, that is,
 
 $$
-w \leftarrow (r, \theta) \leftarrow (x, y).
+u \leftarrow (r, \theta) \leftarrow (x, y).
 $$
 
 According to the chain rule, we have
 
 $$
 \begin{align}
-\frac{\partial w}{\partial x} &= \frac{\partial w}{\partial r} \frac{\partial r}{\partial x} + \frac{\partial w}{\partial \theta} \frac{\partial \theta}{\partial x}\\
-\frac{\partial w}{\partial y} &= \frac{\partial w}{\partial r} \frac{\partial r}{\partial y} + \frac{\partial w}{\partial \theta} \frac{\partial \theta}{\partial y}.
+\frac{\partial u}{\partial x} &= \frac{\partial u}{\partial r} \frac{\partial r}{\partial x} + \frac{\partial u}{\partial \theta} \frac{\partial \theta}{\partial x}\\
+\frac{\partial u}{\partial y} &= \frac{\partial u}{\partial r} \frac{\partial r}{\partial y} + \frac{\partial u}{\partial \theta} \frac{\partial \theta}{\partial y}.
 \end{align}
 $$
 
-This is a linear system of $${\partial w}/{\partial r}$$ and $${\partial w}/{\partial \theta}$$, whose coefficients form the transpose of Jacobian matrix $$\mathbf{J}_{r\theta/xy}$$, defined as,
+This is a linear system of $${\partial u}/{\partial r}$$ and $${\partial u}/{\partial \theta}$$, whose coefficients form the transpose of Jacobian matrix $$\mathbf{J}_{r\theta/xy}$$, defined as,
 
 $$
 \mathbf{J}_{r\theta/xy} = \left[\begin{array}{cc} \frac{\partial r}{\partial x} & \frac{\partial r}{\partial y}\\ \frac{\partial \theta}{\partial x} & \frac{\partial \theta}{\partial y} \end{array}\right]
@@ -119,7 +119,7 @@ or more compactly as the Jacobian matrix
 
 $$
 \begin{equation}
-\tag{Jacobian}\label{eq:jacobian}
+\tag{jacobian}\label{eq:jacobian}
 \mathbf{J}_{r\theta/xy} = \left[\begin{array}{cc} \frac{\partial r}{\partial x} & \frac{\partial r}{\partial y}\\ \frac{\partial \theta}{\partial x} & \frac{\partial \theta}{\partial y} \end{array}\right] = \left[\begin{array}{cc} \cos \theta & \sin \theta\\ -\frac{1}{r}\sin \theta & \frac{1}{r} \cos \theta\end{array}\right].
 \end{equation}
 $$
@@ -134,22 +134,22 @@ $$
 
 ---
 
-Next, we use the chain rule to express $$\frac{\partial w}{\partial x}$$ with $$\frac{\partial w}{\partial r}$$ and $$\frac{\partial w}{\partial \theta}$$,
+Next, we use the chain rule to express $$\frac{\partial u}{\partial x}$$ with $$\frac{\partial u}{\partial r}$$ and $$\frac{\partial u}{\partial \theta}$$,
 
 $$
-\frac{\partial w}{\partial x} = \frac{\partial w}{\partial r} \frac{\partial r}{\partial x} + \frac{\partial w}{\partial \theta} \frac{\partial \theta}{\partial x} = \frac{\partial w}{\partial r} \cos \theta - \frac{\partial w}{\partial \theta} \frac{1}{r} \sin \theta
+\frac{\partial u}{\partial x} = \frac{\partial u}{\partial r} \frac{\partial r}{\partial x} + \frac{\partial u}{\partial \theta} \frac{\partial \theta}{\partial x} = \frac{\partial u}{\partial r} \cos \theta - \frac{\partial u}{\partial \theta} \frac{1}{r} \sin \theta
 $$
 
 and differentiating w.r.t $$x$$ once more to produce
 
 $$
-\frac{\partial^2 w}{\partial x^2} = \frac{\partial^2 w}{\partial r^2} \cos^2 \theta - \frac{\partial^2 w}{\partial r \partial \theta} \frac{2}{r} \sin \theta \cos \theta + \frac{\partial^2 w}{\partial \theta^2} \frac{1}{r^2} \sin^2 \theta + \frac{\partial w}{\partial r} \frac{1}{r} \sin^2 \theta + \frac{\partial w}{\partial \theta} \frac{2}{r^2} \cos \theta \sin \theta.
+\frac{\partial^2 u}{\partial x^2} = \frac{\partial^2 u}{\partial r^2} \cos^2 \theta - \frac{\partial^2 u}{\partial r \partial \theta} \frac{2}{r} \sin \theta \cos \theta + \frac{\partial^2 u}{\partial \theta^2} \frac{1}{r^2} \sin^2 \theta + \frac{\partial u}{\partial r} \frac{1}{r} \sin^2 \theta + \frac{\partial u}{\partial \theta} \frac{2}{r^2} \cos \theta \sin \theta.
 $$
 
 Similarly, we can compute 
 
 $$
-\frac{\partial^2 w}{\partial y^2} = \frac{\partial^2 w}{\partial r^2} \sin^2 \theta + \frac{\partial^2 w}{\partial r \partial \theta} \frac{2}{r} \sin \theta \cos \theta + \frac{\partial^2 w}{\partial \theta^2} \frac{1}{r^2} \cos^2 \theta + \frac{\partial w}{\partial r} \frac{1}{r} \cos^2 \theta - \frac{\partial w}{\partial \theta} \frac{2}{r^2} \cos \theta \sin \theta.
+\frac{\partial^2 u}{\partial y^2} = \frac{\partial^2 u}{\partial r^2} \sin^2 \theta + \frac{\partial^2 u}{\partial r \partial \theta} \frac{2}{r} \sin \theta \cos \theta + \frac{\partial^2 u}{\partial \theta^2} \frac{1}{r^2} \cos^2 \theta + \frac{\partial u}{\partial r} \frac{1}{r} \cos^2 \theta - \frac{\partial u}{\partial \theta} \frac{2}{r^2} \cos \theta \sin \theta.
 $$
 
 ---
@@ -158,16 +158,16 @@ By combining the two equations, we get
 
 $$
 \begin{equation}
-\tag{polar-laplacian}\label{eq:polar-laplacian}
+\tag{polar-lap}\label{eq:polar-lap}
 \begin{aligned}
-\Delta w &= \frac{\partial^2 w}{\partial x^2} + \frac{\partial^2 w}{\partial y^2} = \frac{\partial^2 w}{\partial r^2} + \frac{1}{r^2}\frac{\partial^2 w}{\partial \theta^2} + \frac{1}{r}\frac{\partial w}{\partial r}\\
-\Delta  &= \frac{\partial^2 }{\partial r^2} + \frac{1}{r^2}\frac{\partial^2 }{\partial \theta^2} + \frac{1}{r}\frac{\partial}{\partial r}
+\nabla \cdot \nabla w &= \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} = \frac{\partial^2 u}{\partial r^2} + \frac{1}{r^2}\frac{\partial^2 u}{\partial \theta^2} + \frac{1}{r}\frac{\partial u}{\partial r}\\
+\nabla \cdot \nabla  &= \frac{\partial^2 }{\partial r^2} + \frac{1}{r^2}\frac{\partial^2 }{\partial \theta^2} + \frac{1}{r}\frac{\partial}{\partial r}
 \end{aligned}
 \end{equation}
 $$
 
 
-### The Laplacian in Cylindrical Coordinate
+### The Laplacian in cylindrical coordinate
 
 In the cylindrical coordinate, we have
 
@@ -183,12 +183,12 @@ where we use $$\rho, \theta$$ to identify the polar coordinate corresponding to 
 
 $$
 \begin{aligned}
-\Delta w &= \frac{\partial^2 w}{\partial x^2} + \frac{\partial^2 w}{\partial y^2} + \frac{\partial^2 w}{\partial z^2} = \frac{\partial^2 w}{\partial \rho^2} + \frac{1}{\rho^2}\frac{\partial^2 w}{\partial \theta^2} + \frac{1}{\rho}\frac{\partial w}{\partial \rho} + \frac{\partial^2 w}{\partial z^2}\\
-\Delta &= \frac{\partial^2}{\partial \rho^2} + \frac{1}{\rho^2}\frac{\partial^2}{\partial \theta^2} + \frac{1}{\rho}\frac{\partial}{\partial \rho} + \frac{\partial^2}{\partial z^2}\\
+\nabla \cdot \nabla u &= \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} + \frac{\partial^2 u}{\partial z^2} = \frac{\partial^2 u}{\partial \rho^2} + \frac{1}{\rho^2}\frac{\partial^2 u}{\partial \theta^2} + \frac{1}{\rho}\frac{\partial u}{\partial \rho} + \frac{\partial^2 u}{\partial z^2}\\
+\nabla \cdot \nabla &= \frac{\partial^2}{\partial \rho^2} + \frac{1}{\rho^2}\frac{\partial^2}{\partial \theta^2} + \frac{1}{\rho}\frac{\partial}{\partial \rho} + \frac{\partial^2}{\partial z^2}\\
 \end{aligned}
 $$
 
-### The Laplacian in Spherical Coordinate
+### The Laplacian in spherical coordinate
 
 ![]({{ '/assets/images/spherical-coordinate.png' | relative_url }})
 {: style="width: 65%;" class="center"}
@@ -204,12 +204,12 @@ z &= r \cos \phi
 \end{aligned}
 $$
 
-which can be viewed as two orthogonal planes $$xy$$-plane and $$\rho z$$-plane with $$\rho = r \sin \phi $$. Thus, we can apply what we have established in Eq. \eqref{eq:polar-laplacian} to the two planes, respectively, to yield
+which can be viewed as two orthogonal planes $$xy$$-plane and $$\rho z$$-plane with $$\rho = r \sin \phi $$. Thus, we can apply what we have established in Eq. \eqref{eq:polar-lap} to the two planes, respectively, to yield
 
 $$
 \begin{aligned}
-\frac{\partial^2 w}{\partial x^2} + \frac{\partial^2 w}{\partial y^2} &= \frac{\partial^2 w}{\partial \rho^2} + \frac{1}{\rho^2}\frac{\partial^2 w}{\partial \theta^2} + \frac{1}{\rho}\frac{\partial w}{\partial \rho} \\
-\frac{\partial^2 w}{\partial z^2} + \frac{\partial^2 w}{\partial \rho^2} &= \frac{\partial^2 w}{\partial r^2} + \frac{1}{r^2}\frac{\partial^2 w}{\partial \phi^2} + \frac{1}{r}\frac{\partial w}{\partial r}
+\frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} &= \frac{\partial^2 u}{\partial \rho^2} + \frac{1}{\rho^2}\frac{\partial^2 u}{\partial \theta^2} + \frac{1}{\rho}\frac{\partial u}{\partial \rho} \\
+\frac{\partial^2 u}{\partial z^2} + \frac{\partial^2 u}{\partial \rho^2} &= \frac{\partial^2 u}{\partial r^2} + \frac{1}{r^2}\frac{\partial^2 u}{\partial \phi^2} + \frac{1}{r}\frac{\partial u}{\partial r}
 \end{aligned}
 $$
 
@@ -217,26 +217,26 @@ By adding both sides of the two equations and rearranging the terms, we have
 
 $$
 \begin{equation}
-\tag{spherical}\label{eq:spherical}
-\frac{\partial^2 w}{\partial x^2} + \frac{\partial^2 w}{\partial y^2} + \frac{\partial^2 w}{\partial z^2} = \frac{\partial^2 w}{\partial r^2} + \frac{1}{r^2}\frac{\partial^2 w}{\partial \phi^2} + \frac{1}{\rho^2}\frac{\partial^2 w}{\partial \theta^2} + \frac{1}{\rho}\frac{\partial w}{\partial \rho} + \frac{1}{r}\frac{\partial w}{\partial r}
+\tag{spherical-lap0}\label{eq:spherical-lap}
+\frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} + \frac{\partial^2 u}{\partial z^2} = \frac{\partial^2 u}{\partial r^2} + \frac{1}{r^2}\frac{\partial^2 u}{\partial \phi^2} + \frac{1}{\rho^2}\frac{\partial^2 u}{\partial \theta^2} + \frac{1}{\rho}\frac{\partial u}{\partial \rho} + \frac{1}{r}\frac{\partial u}{\partial r}
 \end{equation}
 $$
 
-To obtain the Laplacian in spherical coordinate, we only need to eliminate $$\rho$$ and $${\partial w}/{\partial \rho}$$ from the right side. $$\rho = r \sin \phi$$ whereas
+To obtain the Laplacian in spherical coordinate, we only need to eliminate $$\rho$$ and $${\partial u}/{\partial \rho}$$ from the right side. $$\rho = r \sin \phi$$ whereas
 
 $$
-\frac{\partial w}{\partial \rho} = \frac{\partial w}{\partial r} \frac{\partial r}{\partial \rho} + \frac{\partial w}{\partial \phi} \frac{\partial \phi}{\partial x} = \frac{\partial w}{\partial r} \sin \phi + \frac{\partial w}{\partial \phi} \frac{1}{r} \cos \phi
+\frac{\partial u}{\partial \rho} = \frac{\partial u}{\partial r} \frac{\partial r}{\partial \rho} + \frac{\partial u}{\partial \phi} \frac{\partial \phi}{\partial x} = \frac{\partial u}{\partial r} \sin \phi + \frac{\partial u}{\partial \phi} \frac{1}{r} \cos \phi
 $$
 
 the first equaltiy is established by applying the chain rule to $$w$$ in the $$\rho z$$-plane and
-the second equality is obtained by observing the Jacobian matrix in Eq. \eqref{eq:polar-laplacian} and treating $$\rho$$ to $$y$$ and $$\phi$$ to $$\theta$$.
+the second equality is obtained by observing the Jacobian matrix in Eq. \eqref{eq:jacobian} and treating $$\rho$$ to $$y$$ and $$\phi$$ to $$\theta$$.
 
-Now replacing $$\rho$$ and $${\partial w}/{\partial \rho}$$ into Eq. \eqref{eq:spherical}, we get
+Now replacing $$\rho$$ and $${\partial u}/{\partial \rho}$$ into Eq. \eqref{eq:spherical-lap}, we get
 
 $$
 \begin{aligned}
-\Delta w &= \frac{\partial^2 w}{\partial r^2} + \frac{1}{r^2}\frac{\partial^2 w}{\partial \phi^2} + \frac{1}{r^2 \sin^2 \phi}\frac{\partial^2 w}{\partial \theta^2} + \frac{1}{r \sin \phi} \left(\frac{\partial w}{\partial r} \sin \phi + \frac{\partial w}{\partial \phi} \frac{1}{r} \cos \phi \right) + \frac{1}{r}\frac{\partial w}{\partial r}\\
-&= \frac{\partial^2 w}{\partial r^2} + \frac{1}{r^2}\frac{\partial^2 w}{\partial \phi^2} + \frac{1}{r^2 \sin^2 \phi}\frac{\partial^2 w}{\partial \theta^2} + \frac{1}{r^2} \cot \phi \frac{\partial w}{\partial \phi} + \frac{2}{r}\frac{\partial w}{\partial r} \\
-\Delta &= \frac{\partial^2}{\partial r^2} + \frac{1}{r^2}\frac{\partial^2 }{\partial \phi^2} + \frac{1}{r^2 \sin^2 \phi}\frac{\partial^2}{\partial \theta^2} + \frac{1}{r^2} \cot \phi \frac{\partial}{\partial \phi} + \frac{2}{r}\frac{\partial}{\partial r}.
+\nabla \cdot \nabla u &= \frac{\partial^2 u}{\partial r^2} + \frac{1}{r^2}\frac{\partial^2 u}{\partial \phi^2} + \frac{1}{r^2 \sin^2 \phi}\frac{\partial^2 u}{\partial \theta^2} + \frac{1}{r \sin \phi} \left(\frac{\partial u}{\partial r} \sin \phi + \frac{\partial u}{\partial \phi} \frac{1}{r} \cos \phi \right) + \frac{1}{r}\frac{\partial u}{\partial r}\\
+&= \frac{\partial^2 u}{\partial r^2} + \frac{1}{r^2}\frac{\partial^2 u}{\partial \phi^2} + \frac{1}{r^2 \sin^2 \phi}\frac{\partial^2 u}{\partial \theta^2} + \frac{1}{r^2} \cot \phi \frac{\partial u}{\partial \phi} + \frac{2}{r}\frac{\partial u}{\partial r} \\
+\nabla \cdot \nabla &= \frac{\partial^2}{\partial r^2} + \frac{1}{r^2}\frac{\partial^2 }{\partial \phi^2} + \frac{1}{r^2 \sin^2 \phi}\frac{\partial^2}{\partial \theta^2} + \frac{1}{r^2} \cot \phi \frac{\partial}{\partial \phi} + \frac{2}{r}\frac{\partial}{\partial r}.
 \end{aligned}
 $$

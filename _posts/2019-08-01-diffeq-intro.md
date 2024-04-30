@@ -7,7 +7,7 @@ tags: differential-equation edx
 ---
 
 
-> Introduction to Differential Equations.
+> The elementary differential equations from MIT edx course.
 
 <!--more-->
 

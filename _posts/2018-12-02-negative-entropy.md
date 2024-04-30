@@ -7,7 +7,7 @@ tags: convex foundation random-topic
 ---
 
 
-> Negative Entropy.
+> Negative entropy, its properties, and applications in machine learning.
 
 <!--more-->
 
@@ -15,11 +15,11 @@ tags: convex foundation random-topic
 * TOC
 {:toc}
 
-## Background
+### Background
 
 **Notation**: Denoting standard simplex in $$\mathbb{R}^n$$ as $$\triangle_n \triangleq \left\{ \boldsymbol { \lambda } \in \mathbb { R } _ { + } ^ { n } : \langle \boldsymbol{1}, \boldsymbol { \lambda } \rangle = 1 \right\}$$.
 
-## Strongly convex property
+### Strongly convex property
 
 We consider the negative entropy defined as 
 
@@ -86,9 +86,9 @@ i.e., $$\nabla f(\mathbf{x}^*)$$ is orthogonal to the null space of $$A$$, hence
 
 
 
-## Applications
+### Applications
 
-### Differentiable dynamic programming
+#### Differentiable dynamic programming
 
 The $$\max$$ operator can be formulated as
 
@@ -104,7 +104,7 @@ $$
 
 where the r.h.s is a strongly concave function w.r.t $$\mathbf{q}$$, more details is available in the [paper](https://arxiv.org/abs/1802.03676).
 
-### Smoothed Wasserstain distance
+#### Smoothed Wasserstain distance
 
 Recall the Wasserstain distance between two measure $$\mathbf{a}, \mathbf{b}$$:
 $$

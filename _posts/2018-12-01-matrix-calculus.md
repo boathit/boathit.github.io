@@ -3,10 +3,10 @@ layout: post
 comments: false
 title: "Matrix Calculus"
 date: 2018-12-01 12:00:00
-tags: foundation random-topic
+tags: foundation vector-calculus
 ---
 
-> Matrix Calculus.
+> The matrix derivative of scalar function and its applications in machine learning.
 
 <!--more-->
 
@@ -18,7 +18,11 @@ The [pdf-version]({{ '/assets/pdfs/matrix-calculus4ml.pdf' | relative_url }}) is
 
 ## Inner product notation
 
-We will use $$\langle \cdot, \cdot \rangle$$ to denote inner product for vector or Frobenius inner product for matrix, and use $$\odot$$ to denote Hadamard product.
+We will use $$\langle \cdot, \cdot \rangle$$ to denote inner product for vector or Frobenius inner product for matrix, and use $$\odot$$ to denote Hadamard product. Recall that the matrix Frobenuis inner product is defined as
+
+$$
+\langle X, Y\rangle=\operatorname{tr}\left(X^{\top} Y\right)=\sum_{i=1}^m \sum_{j=1}^n X_{i j} Y_{i j}.
+$$
 
 For any $$X \in \mathbb{R}^{m \times n}, Y \in \mathbb{R}^{m \times n}, Z \in \mathbb{R}^{m \times n}, a \in \mathbb{R}$$,
 
@@ -74,11 +78,24 @@ $$
 * $$d ({X}^\top) = (d {X})^\top$$, transpose.
 * $$d \operatorname{tr}({X}) = \operatorname{tr}(d {X})$$, trace.
 * $$d {X} ^ {-1} = - {X}^{-1} (d {X}) {X}^{-1}$$, which can be obtained by differentiating $${X} {X}^{-1} = I$$.
-* $$d \vert{X}\vert = \operatorname{tr} (\operatorname{adj}(X) d {X})$$, when $${X}$$ is invertible $$d \vert{X}\vert = \vert{X}\vert\operatorname{tr} ({X}^{-1} d {X})$$.
+* $$d \operatorname{det}(X) = \operatorname{tr} (\operatorname{adj}(X) d {X}) = \langle \operatorname{adj}(X)^\top, d {X} \rangle$$, where $$\operatorname{adj}(X)$$ is the adjugate matrix of $${X}$$. 
+* $$d \operatorname{det}(X) = \operatorname{det}(X) \operatorname{tr} ({X}^{-1} d {X})$$ if $${X}$$ is invertible.
 * $$d({X} \odot {Y})=(d {X}) \odot {Y}+{X} \odot d {Y}$$, Hadamard product.
 * $$d \sigma({X}) = \sigma ' ({X}) \odot d {X}$$, where $$\sigma(\cdot)$$ is an element-wise function such as $$\operatorname{sigmoid}$$, $$\sin$$, etc.
 
-where $$\operatorname{adj}(X)$$ is the adjoint matrix of $${X}$$
+Recall that the adjugate matrix $$\operatorname{adj}(X)$$ of a matrix $$X \in \mathbb{R}^{n \times n}$$ is defined as the transpose of its cofactor matrix $$C$$, $$\operatorname{adj}(X) = C^\top$$. The cofactor matrix denoted by $$C = [c_{ij}]_{n \times n}$$, where $$c_{ij} = (-1)^{i+j} m_{ij}$$ is defined as the cofactor of $$x_{ij}$$ and $$m_{ij}$$ is the determinant of the matrix produced by striking out row $$i$$ and column $$j$$ of $$X$$. We have the equalities
+
+$$
+X \operatorname{adj}(X) = \operatorname{det}(X) I
+$$
+
+for the square matrix $$X$$ and 
+
+$$
+X^{-1}  = \operatorname{adj}(X) / \operatorname{det}(X) 
+$$
+
+if $$X$$ is invertible.
 
 
 ### Trace Trick

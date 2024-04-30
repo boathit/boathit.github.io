@@ -7,7 +7,7 @@ tags: convex foundation random-topic
 ---
 
 
-> Legendre Transformation.
+> Legendre transformation, its geometry intuition, and applications in machine learning.
 
 <!--more-->
 

@@ -6,7 +6,7 @@ date: 2021-02-22 09:00:00
 tags: foundation random-topic
 ---
 
-> Random Topics.
+> Random topics from analysis, algebra, geometry, probability, etc.
 
 <!--more-->
 
@@ -14,7 +14,7 @@ tags: foundation random-topic
 * TOC
 {:toc}
 
-## Analysis & Probability
+### Analysis & Probability
 
 #### Limit superior and limit inferior
 
@@ -177,7 +177,7 @@ $$
 $$
 
 
-## Linear Algebra & Functional
+### Linear Algebra & Functional
 
 #### Inner product in complex space
 
