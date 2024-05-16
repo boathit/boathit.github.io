@@ -26,6 +26,10 @@ Machine learning and data mining, with a focus on sequence and probabilistic mod
 
 ## Publications
 
+- **Vector Quantization Pretraining for EEG Time Series with Random Projection and Phase Alignment**\
+  Haokun Gui, <ins>Xiucheng Li</ins><span>&#9993;</span>, <ins>Xinyang Chen</ins><span>&#9993;</span>\
+  *International Conference on Machine Learning* (**ICML**), 2024 [[PDF]]({{ '/assets/pdfs/icml2024-vq-mtm.pdf' | relative_url }}) [[Code]](https://github.com/HaokunGUI/VQ_MTM)
+
 - **Biased Temporal Convolution Graph Network for Time Series Forecasting with Missing Values**\
   Xiaodan Chen, <ins>Xiucheng Li</ins><span>&#9993;</span>, Bo Liu, Zhijun Li<span>&#9993;</span>\
   *International Conference on Learning Representations* (**ICLR**), 2024 [[PDF]](https://openreview.net/pdf?id=O9nZCwdGcG) [[Code]](https://github.com/chenxiaodanhit/BiTGraph)
