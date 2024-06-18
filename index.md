@@ -23,7 +23,7 @@ Machine learning and data mining, with a focus on sequence and probabilistic mod
 
 
 
-<h4 style="color:DodgerBlue;">Self-motivated undergraduates@HITSZ with strong programming skills and solid math background are welcomed, feel free to drop me an email and attach your cv if you are interested in the above research topics.</h4>
+<h4 style="color:DodgerBlue;">Self-motivated undergraduates@HITSZ with strong programming skills and solid math background are welcomed, feel free to drop me an email and attach your cv if you are interested in the above topics.</h4>
 
 ---
 
