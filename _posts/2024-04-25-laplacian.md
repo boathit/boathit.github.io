@@ -236,7 +236,9 @@ Now replacing $$\rho$$ and $${\partial u}/{\partial \rho}$$ into Eq. \eqref{eq:s
 $$
 \begin{aligned}
 \nabla \cdot \nabla u &= \frac{\partial^2 u}{\partial r^2} + \frac{1}{r^2}\frac{\partial^2 u}{\partial \phi^2} + \frac{1}{r^2 \sin^2 \phi}\frac{\partial^2 u}{\partial \theta^2} + \frac{1}{r \sin \phi} \left(\frac{\partial u}{\partial r} \sin \phi + \frac{\partial u}{\partial \phi} \frac{1}{r} \cos \phi \right) + \frac{1}{r}\frac{\partial u}{\partial r}\\
-&= \frac{\partial^2 u}{\partial r^2} + \frac{1}{r^2}\frac{\partial^2 u}{\partial \phi^2} + \frac{1}{r^2 \sin^2 \phi}\frac{\partial^2 u}{\partial \theta^2} + \frac{1}{r^2} \cot \phi \frac{\partial u}{\partial \phi} + \frac{2}{r}\frac{\partial u}{\partial r} \\
-\nabla \cdot \nabla &= \frac{\partial^2}{\partial r^2} + \frac{1}{r^2}\frac{\partial^2 }{\partial \phi^2} + \frac{1}{r^2 \sin^2 \phi}\frac{\partial^2}{\partial \theta^2} + \frac{1}{r^2} \cot \phi \frac{\partial}{\partial \phi} + \frac{2}{r}\frac{\partial}{\partial r}.
+&= \frac{\partial^2 u}{\partial r^2} + \frac{2}{r}\frac{\partial u}{\partial r} + \frac{1}{r^2}\frac{\partial^2 u}{\partial \phi^2} + \frac{1}{r^2} \cot \phi \frac{\partial u}{\partial \phi} + \frac{1}{r^2 \sin^2 \phi}\frac{\partial^2 u}{\partial \theta^2}\\
+&= \frac{\partial^2 u}{\partial r^2} + \frac{2}{r}\frac{\partial u}{\partial r} + \frac{1}{r^2 \sin \phi}\frac{\partial }{\partial \phi}\left(\frac{\partial u}{\partial \phi} \sin \phi\right) + \frac{1}{r^2 \sin^2 \phi}\frac{\partial^2 u}{\partial \theta^2}\\
+\nabla \cdot \nabla &= \frac{\partial^2}{\partial r^2} + \frac{2}{r}\frac{\partial}{\partial r} + \frac{1}{r^2}\frac{\partial^2 }{\partial \phi^2} + \frac{1}{r^2} \cot \phi \frac{\partial}{\partial \phi} + \frac{1}{r^2 \sin^2 \phi}\frac{\partial^2}{\partial \theta^2}\\
+&= \frac{\partial^2 }{\partial r^2} + \frac{2}{r}\frac{\partial }{\partial r} + \frac{1}{r^2 \sin \phi}\frac{\partial }{\partial \phi}\left(\frac{\partial }{\partial \phi} \sin \phi\right) + \frac{1}{r^2 \sin^2 \phi}\frac{\partial^2 }{\partial \theta^2}\\
 \end{aligned}
 $$

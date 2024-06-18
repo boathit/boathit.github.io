@@ -4,11 +4,11 @@ layout: default
 
 ## Xiucheng Li (李修成)
 
-Assistant Professor of School of Computer Science and Technology at Harbin Institute of Technology (Shenzhen).
+Assistant Professor of School of Computer Science and Technology at Harbin Institute of Technology, Shenzhen.
 
 * **Previously**: PhD, School of Computer Science and Engineering, Nanyang Technological University
 * **Advisor**: [Gao Cong](https://personal.ntu.edu.sg/gaocong)
-* **Office**: Info-Tech Building 1906, HIT District, University Town of Shenzhen
+* **Office**: Info-Tech Building 1906, HIT Campus, University Town of Shenzhen
 * **Email**: lixiucheng [at] hit.edu.cn; xli055 [at] e.ntu.edu.sg
 
 ---
@@ -21,6 +21,9 @@ Machine learning and data mining, with a focus on sequence and probabilistic mod
 * Probabilistic generative models.
 * Compact deep learning by exploring the underlying symmetry and structures.
 
+
+
+<h4 style="color:DodgerBlue;">Self-motivated undergraduates@HITSZ with strong programming skills and solid math background are welcomed, feel free to drop me an email and attach your cv if you are interested in the above research topics.</h4>
 
 ---
 
@@ -37,6 +40,11 @@ Machine learning and data mining, with a focus on sequence and probabilistic mod
 - **A Scalable Adaptive Graph Diffusion Forecasting Network for Multivariate Time Series Forecasting**\
   Yue Jiang, <ins>Xiucheng Li</ins><span>&#9993;</span>, Yile Chen, Shuai Liu, Weilong Kong, Gao Cong\
   *IEEE International Conference on Data Engineering* (**ICDE**), 2024 [[PDF]]({{ '/assets/pdfs/icde24-scalable.pdf' | relative_url }})
+
+- **Optimizing Smartphone App Usage Prediction: A Click-Through Rate Ranking Approach**\
+  Yuqi Zhang, Meiying Kang, <ins>Xiucheng Li</ins><span>&#9993;</span>, Yu Qiu, Zhijun Li<span>&#9993;</span>\
+  *ACM SIGKDD International Conference on Knowledge Discovery and Data Mining* (**KDD**), 2024 [[PDF]]({{ '/assets/pdfs/kdd2024-app-prediction.pdf' | relative_url }})
+
 
 - **Multi-Label Action Anticipation for Real-World Videos with Scene Understanding**\
   Yuqi Zhang, <ins>Xiucheng Li</ins><span>&#9993;</span>, Hao Xie, Weijun Zhuang, Shihui Guo, Zhijun Li<span>&#9993;</span>\
