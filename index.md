@@ -21,9 +21,21 @@ Machine learning and data mining, with a focus on sequence and probabilistic mod
 * Probabilistic generative models.
 * Compact deep learning by exploring the underlying symmetry and structures.
 
+## Group
 
+I am very glad to work with some excellent undergraduate students at HITSZ. <font color="#2E86C1">Self-motivated undergraduate students with strong programming skills and solid math background are welcomed to join the group, feel free to drop me an email and attach your cv if you are interested in the above research topics.</font>
 
-<font color="#2E86C1">Self-motivated undergraduates@HITSZ with strong programming skills and solid math background are welcomed, feel free to drop me an email and attach your cv if you are interested in the above topics.</font>
+|Undergraduate Students | | |
+|:--------:|:-------|:--------|
+| Haokun Gui (桂昊坤)$$\dagger$$&nbsp;   |&nbsp; class of 2020@HITSZ |&rarr; PhD@Hong Kong University of Science and Technology|
+| Yuhang Xie (谢宇航)$$\dagger$$   |&nbsp; class of 2020@HITSZ |&rarr; PhD@The Chinese University of Hong Kong|
+| Xinya Liu (刘欣雅)   |&nbsp; class of 2020@HITSZ |&rarr; PhD@City University of Hong Kong|
+| Hongyi Chen (陈弘毅)&nbsp;   |&nbsp; class of 2020@HITSZ |&rarr; Master@Harbin Institute of Technology, Shenzhen|
+|=====
+{: rules="groups"}
+
+\
+$$\dagger$$ *co-supervised with Prof. [Xinyang Chen](https://faculty.hitsz.edu.cn/chenxinyang).*
 
 ---
 
