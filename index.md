@@ -13,24 +13,25 @@ Assistant Professor of School of Computer Science and Technology at Harbin Insti
 
 ---
 
-## Research Interests
+## Research Interests and Group
 
 Machine learning and data mining, with a focus on sequence and probabilistic modeling:
 * Time series data and spatiotemporal data modeling.
 * Self-supervised learning, structured and interpretable representation learning.
-* Probabilistic generative models.
+* Probabilistic generative models and graph learning.
 * Compact deep learning by exploring the underlying symmetry and structures.
 
-## Group
 
-I am very glad to work with some excellent undergraduate students at HITSZ. <font color="#2E86C1">Self-motivated undergraduate students with strong programming skills and solid math background are welcomed to join the group, feel free to drop me an email and attach your cv if you are interested in the above research topics.</font>
+I am very glad to work with some undergraduate students at HITSZ. <font color="#2E86C1">Self-motivated undergraduate students with strong programming skills and solid math background are welcomed to join the group, feel free to drop me an email and attach your cv if you are interested in the above research topics.</font>
 
-|Undergraduate Students | | |
-|:--------:|:-------|:--------|
-| Haokun Gui (桂昊坤)$$\dagger$$&nbsp;   |&nbsp; class of 2020@HITSZ |&rarr; PhD@Hong Kong University of Science and Technology|
-| Yuhang Xie (谢宇航)$$\dagger$$   |&nbsp; class of 2020@HITSZ |&rarr; PhD@The Chinese University of Hong Kong|
-| Xinya Liu (刘欣雅)   |&nbsp; class of 2020@HITSZ |&rarr; PhD@City University of Hong Kong|
-| Hongyi Chen (陈弘毅)&nbsp;   |&nbsp; class of 2020@HITSZ |&rarr; Master@Harbin Institute of Technology, Shenzhen|
+#### Undergraduate Students Supervised
+
+|:--------|:--------|:-------|:--------|
+| Haokun Gui |&nbsp; (桂昊坤)$$\dagger$$   |&nbsp; class of 2020@HITSZ |&rarr; PhD@Hong Kong University of Science and Technology|
+| Yuhang Xie |&nbsp; (谢宇航)$$\dagger$$   |&nbsp; class of 2020@HITSZ |&rarr; PhD@The Chinese University of Hong Kong|
+| Xinya Liu |&nbsp; (刘欣雅)   |&nbsp; class of 2020@HITSZ |&rarr; PhD@City University of Hong Kong|
+| Hongyi Chen |&nbsp; (陈弘毅)   |&nbsp; class of 2020@HITSZ |&rarr; Master@Harbin Institute of Technology, Shenzhen|
+| Hualong Wu |&nbsp; (吴华龙)   |&nbsp; class of 2019@HITSZ |&rarr; Master@Harbin Institute of Technology, Shenzhen|
 |=====
 {: rules="groups"}
 
