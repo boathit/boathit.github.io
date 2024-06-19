@@ -15,7 +15,7 @@ Assistant Professor of School of Computer Science and Technology at Harbin Insti
 
 ## Research Interests and Group
 
-Machine learning and data mining, with a focus on sequence and probabilistic modeling:
+Machine learning and data mining, with a focus on sequence, graph, and probabilistic modeling:
 * Time series data and spatiotemporal data modeling.
 * Self-supervised learning, structured and interpretable representation learning.
 * Probabilistic generative models and graph learning.
@@ -36,7 +36,7 @@ I am very glad to work with some excellent students at HITSZ. <font color="#2E86
 {: rules="groups"}
 
 \
-$$\dagger$$ *co-supervised with Prof. [Xinyang Chen](https://faculty.hitsz.edu.cn/chenxinyang).*
+$$\dagger$$ *co-supervised with Prof. [Xinyang Chen](https://faculty.hitsz.edu.cn/chenxinyang)*.
 
 ---
 
