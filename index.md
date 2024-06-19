@@ -16,7 +16,7 @@ Assistant Professor of School of Computer Science and Technology at Harbin Insti
 ## Research Interests
 
 Machine learning and data mining, with a focus on sequence and probabilistic modeling:
-* Time series data modeling and sequence models.
+* Time series data and spatiotemporal data modeling.
 * Self-supervised learning, structured and interpretable representation learning.
 * Probabilistic generative models.
 * Compact deep learning by exploring the underlying symmetry and structures.
