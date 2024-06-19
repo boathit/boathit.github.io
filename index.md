@@ -22,7 +22,7 @@ Machine learning and data mining, with a focus on sequence and probabilistic mod
 * Compact deep learning by exploring the underlying symmetry and structures.
 
 
-I am very glad to work with some undergraduate students at HITSZ. <font color="#2E86C1">Self-motivated undergraduate students with strong programming skills and solid math background are welcomed to join the group, feel free to drop me an email and attach your cv if you are interested in the above research topics.</font>
+I am very glad to work with some excellent students at HITSZ. <font color="#2E86C1">Self-motivated undergraduate students with strong programming skills and solid math background are welcomed to join the group, feel free to drop me an email and attach your cv if you are interested in the above research topics.</font>
 
 #### Undergraduate Students Supervised
 
