@@ -18,13 +18,13 @@ Assistant Professor of School of Computer Science and Technology at Harbin Insti
 Machine learning and data mining, with a focus on sequence, graph, and probabilistic modeling:
 * Time series data and spatiotemporal data modeling.
 * Self-supervised learning, structured and interpretable representation learning.
-* Probabilistic generative models and graph learning.
-* Compact deep learning by exploring the underlying symmetry and structures.
+* Probabilistic generative models.
+* Graph and compact deep learning by exploring the underlying symmetry and structures.
 
 
 I am very glad to work with some excellent students at HITSZ. <font color="#2E86C1">Self-motivated undergraduate students with strong programming skills and solid math background are welcomed to join the group, feel free to drop me an email and attach your cv if you are interested in the above research topics.</font>
 
-#### Undergraduate Students Supervised
+#### Undergraduate Students
 
 |:--------|:--------|:-------|:--------|
 | Haokun Gui |&nbsp; (桂昊坤)$$\dagger$$   |&nbsp; class of 2020@HITSZ |&rarr; PhD@Hong Kong University of Science and Technology|
@@ -73,7 +73,7 @@ $$\dagger$$ *co-supervised with Prof. [Xinyang Chen](https://faculty.hitsz.edu.c
 
 - **Points-of-Interest Relationship Inference with Spatial-enriched Graph Neural Networks**\
     Yile Chen, <ins>Xiucheng Li</ins>, Gao Cong, Cheng Long, Zhifeng Bao, Shang Liu, Wanli Gu, Fuzheng Zhang\
-    *International Conference on Very Large Data Bases* (**VLDB**), 2021 [[PDF]]({{ '/assets/pdfs/vldb22-poi-relation.pdf' | relative_url }})
+    *International Conference on Very Large Data Bases* (**VLDB**), 2022 [[PDF]]({{ '/assets/pdfs/vldb22-poi-relation.pdf' | relative_url }})
 
 - **Robust Road Network Representation Learning: When Traffic Patterns Meet Traveling Semantics**\
   Yile Chen, <ins>Xiucheng Li</ins>, Gao Cong, Cheng Long, Zhifeng Bao\
@@ -91,13 +91,13 @@ $$\dagger$$ *co-supervised with Prof. [Xinyang Chen](https://faculty.hitsz.edu.c
   Shengnan Guo, Youfang Lin, Huaiyu Wan, <ins>Xiucheng Li</ins>, Gao Cong\
   *IEEE Transactions on Knowledge and Data Engineering* (**TKDE**), 2021 [[PDF]]({{ '/assets/pdfs/tkde21-traffic-forecasting.pdf' | relative_url }})
 
-- **PGeoTopic: A Distributed Solution for Mining Geographical Topic Models**\
-  Kaiqi Zhao, Gao Cong, <ins>Xiucheng Li</ins>\
-  *IEEE Transactions on Knowledge and Data Engineering* (**TKDE**), 2020 [[PDF]]({{ '/assets/pdfs/tkde20-pgeotopic.pdf' | relative_url }})
-
 - **Spatial Transition Learning on Road Networks with Deep Probabilistic Models**\
   <ins>Xiucheng Li</ins>, Gao Cong, Yun Cheng\
   *IEEE International Conference on Data Engineering* (**ICDE**), 2021 [[PDF]]({{ '/assets/pdfs/icde20-deepst.pdf' | relative_url }}) [[Code]](https://github.com/boathit/deepst)
+
+- **PGeoTopic: A Distributed Solution for Mining Geographical Topic Models**\
+  Kaiqi Zhao, Gao Cong, <ins>Xiucheng Li</ins>\
+  *IEEE Transactions on Knowledge and Data Engineering* (**TKDE**), 2020 [[PDF]]({{ '/assets/pdfs/tkde20-pgeotopic.pdf' | relative_url }})
 
 - **Learning Travel Time Distributions with Deep Generative Models**\
   <ins>Xiucheng Li</ins>, Gao Cong, Aixin Sun, Yun Cheng\
@@ -116,10 +116,10 @@ $$\dagger$$ *co-supervised with Prof. [Xinyang Chen](https://faculty.hitsz.edu.c
   *ACM SIGKDD International Conference on Knowledge Discovery and Data Mining* (**KDD**), 2017 [[PDF]]({{ '/assets/pdfs/kdd17-pollution-sources-discovery.pdf' | relative_url }})
 
 - **Finding Dynamic Co-evolving Zones in Spatial-Temporal Time Series Data**\
-  Yun Cheng,<ins>Xiucheng Li</ins>, Yan Li\
+  Yun Cheng, <ins>Xiucheng Li</ins>, Yan Li\
   *European Conference on Machine Learning and Data Mining* (**ECML-PKDD**), 2016 [[PDF]]({{ '/assets/pdfs/ecml-pkdd16-coevolving.pdf' | relative_url }})
 
 
 - **AirCloud: A Cloud-based Air-Quality Monitoring System for Everyone**\
-  Yun Cheng,<ins>Xiucheng Li</ins>, Zhijun Li, Shouxu Jiang, YiLong Li, Jia Ji, Xiaofan (Fred) Jiang\
+  Yun Cheng, <ins>Xiucheng Li</ins>, Zhijun Li, Shouxu Jiang, YiLong Li, Jia Ji, Xiaofan (Fred) Jiang\
   *ACM Conference on Embedded Networked Sensor Systems* (**SenSys**), 2014 [[PDF]]({{ '/assets/pdfs/sensys-final.pdf' | relative_url }})
