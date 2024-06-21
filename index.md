@@ -31,7 +31,6 @@ I am very glad to work with some excellent students at HITSZ. <font color="#2E86
 | Yuhang Xie |&nbsp; (谢宇航)$$\dagger$$   |&nbsp; class of 2020@HITSZ |&rarr; PhD@The Chinese University of Hong Kong (CUHK)|
 | Xinya Liu |&nbsp; (刘欣雅)   |&nbsp; class of 2020@HITSZ |&rarr; PhD@City University of Hong Kong (CityU)|
 | Hongyi Chen |&nbsp; (陈弘毅)   |&nbsp; class of 2020@HITSZ |&rarr; Master@Harbin Institute of Technology, Shenzhen (HITSZ)|
-| Hualong Wu |&nbsp; (吴华龙)   |&nbsp; class of 2019@HITSZ |&rarr; Master@Harbin Institute of Technology, Shenzhen (HITSZ)|
 |=====
 {: rules="groups"}
 
