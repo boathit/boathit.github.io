@@ -4,6 +4,9 @@ layout: default
 
 ## Xiucheng Li (李修成)
 
+![]({{ '/assets/images/xiucheng-2024.jpg' | relative_url }})
+{: style="width: 25%;" class="left"}
+
 Assistant Professor of School of Computer Science and Technology at Harbin Institute of Technology, Shenzhen.
 
 * **Previously**: PhD, School of Computer Science and Engineering, Nanyang Technological University
@@ -40,6 +43,14 @@ $$\dagger$$ *co-supervised with Prof. [Xinyang Chen](https://faculty.hitsz.edu.c
 ---
 
 ## Publications
+
+- **Structured Matrix Basis for Multivariate Time Series Forecasting with Interpretable Dynamics**\
+  Xiaodan Chen, <ins>Xiucheng Li</ins>, Xinyang Chen, Zhijun Li\
+  *Neural Information Processing Systems* (**NeurIPS**), 2024 
+
+- **Boosting Transferability and Discriminability for Time Series Domain Adaptation**\
+  Mingyang Liu, Xinyang Chen, Yang Shu, <ins>Xiucheng Li</ins>,  Weili Guan, Liqiang Nie\
+  *Neural Information Processing Systems* (**NeurIPS**), 2024
 
 - **Vector Quantization Pretraining for EEG Time Series with Random Projection and Phase Alignment**\
   Haokun Gui, <ins>Xiucheng Li</ins><span>&#9993;</span>, Xinyang Chen<span>&#9993;</span>\
