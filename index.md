@@ -16,18 +16,19 @@ Assistant Professor of School of Computer Science and Technology at Harbin Insti
 
 ---
 
-## Research Interests and Group
+## Research interests and group
 
 Machine learning and data mining, with a focus on sequence, graph, and probabilistic modeling:
 * Time series data and spatiotemporal data modeling.
 * Self-supervised learning, structured and interpretable representation learning.
-* Probabilistic generative models.
 * Graph and compact deep learning by exploring the underlying symmetry and structures.
+* Probabilistic generative models.
 
+You can learn more about me in my <a href="{{ '/posts.html' | relative_url }}">posts</a>.
 
-I am very glad to work with some excellent students at HITSZ. <font color="#2E86C1">Self-motivated undergraduate students with strong programming skills and solid math background are welcomed, feel free to drop me an email and attach your cv if you are interested.</font>
+I am very glad to work with some excellent students at HITSZ. <font color="#2E86C1">Self-motivated undergraduate students with strong programming skills and solid math background are welcome, feel free to drop me an email and attach your cv if you are interested.</font> 
 
-#### Undergraduate Students
+#### Undergraduate students
 
 |:--------|:--------|:-------|:--------|
 | Haokun Gui |&nbsp; (桂昊坤)$$\dagger$$   |&nbsp; class of 2020@HITSZ |&rarr; PhD@Hong Kong University of Science and Technology (HKUST)|
@@ -45,11 +46,11 @@ $$\dagger$$ *co-supervised with Prof. [Xinyang Chen](https://faculty.hitsz.edu.c
 ## Publications
 
 - **Structured Matrix Basis for Multivariate Time Series Forecasting with Interpretable Dynamics**\
-  Xiaodan Chen, <ins>Xiucheng Li</ins>, Xinyang Chen, Zhijun Li\
-  *Neural Information Processing Systems* (**NeurIPS**), 2024 
+  Xiaodan Chen, <ins>Xiucheng Li</ins><span>&#9993;</span>, Xinyang Chen, Zhijun Li<span>&#9993;</span>\
+  *Neural Information Processing Systems* (**NeurIPS**), 2024 [[PDF]]({{ '/assets/pdfs/nips24-sumba.pdf' | relative_url }}) [[Code]](https://github.com/chenxiaodanhit/Sumba)
 
 - **Boosting Transferability and Discriminability for Time Series Domain Adaptation**\
-  Mingyang Liu, Xinyang Chen, Yang Shu, <ins>Xiucheng Li</ins>,  Weili Guan, Liqiang Nie\
+  Mingyang Liu, Xinyang Chen<span>&#9993;</span>, Yang Shu<span>&#9993;</span>, <ins>Xiucheng Li</ins><span>&#9993;</span>,  Weili Guan, Liqiang Nie\
   *Neural Information Processing Systems* (**NeurIPS**), 2024
 
 - **Vector Quantization Pretraining for EEG Time Series with Random Projection and Phase Alignment**\
@@ -76,6 +77,10 @@ $$\dagger$$ *co-supervised with Prof. [Xinyang Chen](https://faculty.hitsz.edu.c
 - **DeepMeshCity: A Deep Learning Model for Urban Grid Prediction**\
   Chi Zhang, Linhao Cai, Meng Chen, <ins>Xiucheng Li</ins><span>&#9993;</span>, Gao Cong\
   *ACM Transactions on Knowledge Discovery from Data* (**TKDD**), 2024 [[PDF]]({{ '/assets/pdfs/tkdd24-deepmeshcity.pdf' | relative_url }})
+
+- **Spatial-Temporal Cross-View Contrastive Pre-training for Check-in Sequence Representation Learning**\
+  Letian Gong, Huaiyu Wan, Shengnan Guo, <ins>Xiucheng Li</ins>, Yan Lin, Erwen Zheng, Tianyi Wang, Z. Zhou, Y. Lin\
+  *IEEE Transactions on Knowledge and Data Engineering* (**TKDE**), 2024 [[PDF]](https://arxiv.org/pdf/2407.15899)
 
 - **Multivariate Time-series Imputation with Disentangled Temporal Representations**\
   Shuai Liu, <ins>Xiucheng Li</ins><span>&#9993;</span>, Gao Cong, Yile Chen, Yue Jiang\
