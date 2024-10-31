@@ -51,7 +51,7 @@ $$\dagger$$ *co-supervised with Prof. [Xinyang Chen](https://faculty.hitsz.edu.c
 
 - **Boosting Transferability and Discriminability for Time Series Domain Adaptation**\
   Mingyang Liu, Xinyang Chen<span>&#9993;</span>, Yang Shu<span>&#9993;</span>, <ins>Xiucheng Li</ins><span>&#9993;</span>,  Weili Guan, Liqiang Nie\
-  *Neural Information Processing Systems* (**NeurIPS**), 2024
+  *Neural Information Processing Systems* (**NeurIPS**), 2024 [[PDF]]({{ '/assets/pdfs/nips24-acon.pdf' | relative_url }}) [[Code]](https://github.com/mingyangliu1024/ACON)
 
 - **Vector Quantization Pretraining for EEG Time Series with Random Projection and Phase Alignment**\
   Haokun Gui, <ins>Xiucheng Li</ins><span>&#9993;</span>, Xinyang Chen<span>&#9993;</span>\
@@ -63,7 +63,7 @@ $$\dagger$$ *co-supervised with Prof. [Xinyang Chen](https://faculty.hitsz.edu.c
 
 - **A Scalable Adaptive Graph Diffusion Forecasting Network for Multivariate Time Series Forecasting**\
   Yue Jiang, <ins>Xiucheng Li</ins><span>&#9993;</span>, Yile Chen, Shuai Liu, Weilong Kong, Gao Cong\
-  *IEEE International Conference on Data Engineering* (**ICDE**), 2024 [[PDF]]({{ '/assets/pdfs/icde24-scalable.pdf' | relative_url }})
+  *IEEE International Conference on Data Engineering* (**ICDE**), 2024 [[PDF]]({{ '/assets/pdfs/icde24-scalable.pdf' | relative_url }}) [[Code]](https://github.com/JIANGYUE61610306/SAGDFN)
 
 - **Optimizing Smartphone App Usage Prediction: A Click-Through Rate Ranking Approach**\
   Yuqi Zhang, Meiying Kang, <ins>Xiucheng Li</ins><span>&#9993;</span>, Yu Qiu, Zhijun Li<span>&#9993;</span>\
