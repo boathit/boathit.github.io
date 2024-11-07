@@ -24,7 +24,7 @@ Machine learning and data mining, with a focus on sequence, graph, and probabili
 * Graph and compact deep learning by exploring the underlying symmetry and structures.
 * Probabilistic generative models.
 
-You can learn more about me in my <a href="{{ '/posts.html' | relative_url }}">posts</a>.
+You can learn more about me from my [posts](posts.html).
 
 I am very glad to work with some excellent students at HITSZ. <font color="#2E86C1">Self-motivated undergraduate students with strong programming skills and solid math background are welcome, feel free to drop me an email and attach your cv if you are interested.</font> 
 
@@ -40,6 +40,13 @@ I am very glad to work with some excellent students at HITSZ. <font color="#2E86
 
 \
 $$\dagger$$ *co-supervised with Prof. [Xinyang Chen](https://faculty.hitsz.edu.cn/chenxinyang)*.
+
+---
+
+## Teaching
+
+* Discrete Mathematics, 2024@HITSZ.
+* Compiler, 2022-2024@HITSZ.
 
 ---
 
