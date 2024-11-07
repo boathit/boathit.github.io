@@ -26,7 +26,7 @@ Machine learning and data mining, with a focus on sequence, graph, and probabili
 
 You can learn more about me from my [posts](posts.html).
 
-I am very glad to work with some excellent students at HITSZ. <font color="#2E86C1">Self-motivated undergraduate students with strong programming skills and solid math background are welcome, feel free to drop me an email and attach your cv if you are interested.</font> 
+I am very glad to work with some excellent students at HITSZ. <font color="#2E86C1">Self-motivated undergraduate students</font> with strong programming skills and solid math background are welcome, feel free to drop me an email and attach your cv if you are interested.
 
 #### Undergraduate students
 
