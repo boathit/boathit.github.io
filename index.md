@@ -28,7 +28,7 @@ You can learn more about me from my [posts](posts.html).
 
 I am very glad to work with some excellent students at HITSZ. <font color="#2E86C1">Self-motivated undergraduate students</font> with strong programming skills and solid math background are welcome, feel free to drop me an email and attach your cv if you are interested.
 
-#### Undergraduate students
+#### Alumni (undergraduate students)
 
 |:--------|:--------|:-------|:--------|
 | Haokun Gui |&nbsp; (桂昊坤)$$\dagger$$   |&nbsp; class of 2020@HITSZ |&rarr; PhD@Hong Kong University of Science and Technology (HKUST)|
@@ -45,7 +45,7 @@ $$\dagger$$ *co-supervised with Prof. [Xinyang Chen](https://faculty.hitsz.edu.c
 
 ## Teaching
 
-* Discrete Mathematics, 2024@HITSZ.
+* [Discrete Mathematics]({{ '/assets/courses/discrete-math.html' | relative_url }}), 2024@HITSZ.
 * Compiler, 2022-2024@HITSZ.
 
 ---
