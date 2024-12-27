@@ -88,7 +88,7 @@ $$
 \end{aligned}
 $$
 
-Intuitively, the divergence measures the net outflow at a spatial point. A **positive** divergence implies a **source** whereas a **negative** one indicates a **sink**. The physical system in which fluid are neither created or destroyed will lead to an **equation of continuity**, of the form
+Intuitively, the divergence measures the net outflow at a spatial point. A **positive** divergence implies a **source** whereas a **negative** one indicates a **sink**. The physical system in which fluid are neither created or destroyed will lead to the **continuity equation**, of the form
 
 $$
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{v}) = 0.
