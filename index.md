@@ -31,10 +31,10 @@ I am very glad to work with some excellent students at HITSZ. <font color="#2E86
 #### Alumni (undergraduate students)
 
 |:--------|:--------|:-------|:--------|
-| Haokun Gui |&nbsp; (桂昊坤)$$\dagger$$   |&nbsp; class of 2020@HITSZ |&rarr; PhD@Hong Kong University of Science and Technology (HKUST)|
-| Yuhang Xie |&nbsp; (谢宇航)$$\dagger$$   |&nbsp; class of 2020@HITSZ |&rarr; PhD@The Chinese University of Hong Kong (CUHK)|
-| Xinya Liu |&nbsp; (刘欣雅)   |&nbsp; class of 2020@HITSZ |&rarr; PhD@City University of Hong Kong (CityU)|
-| Hongyi Chen |&nbsp; (陈弘毅)   |&nbsp; class of 2020@HITSZ |&rarr; Master@Harbin Institute of Technology, Shenzhen (HITSZ)|
+| Haokun Gui |&nbsp; (桂昊坤)$$\dagger$$   |&nbsp; class of 2020@HITSZ |&rarr; PhD@HKUST|
+| Yuhang Xie |&nbsp; (谢宇航)$$\dagger$$   |&nbsp; class of 2020@HITSZ |&rarr; PhD@CUHK|
+| Xinya Liu |&nbsp; (刘欣雅)   |&nbsp; class of 2020@HITSZ |&rarr; PhD@CityU HK|
+| Hongyi Chen |&nbsp; (陈弘毅)   |&nbsp; class of 2020@HITSZ |&rarr; Master@HITSZ|
 |=====
 {: rules="groups"}
 
@@ -86,7 +86,7 @@ $$\dagger$$ *co-supervised with Prof. [Xinyang Chen](https://faculty.hitsz.edu.c
   *ACM Transactions on Knowledge Discovery from Data* (**TKDD**), 2024 [[PDF]]({{ '/assets/pdfs/tkdd24-deepmeshcity.pdf' | relative_url }})
 
 - **Spatial-Temporal Cross-View Contrastive Pre-training for Check-in Sequence Representation Learning**\
-  Letian Gong, Huaiyu Wan, Shengnan Guo, <ins>Xiucheng Li</ins>, Yan Lin, Erwen Zheng, Tianyi Wang, Z. Zhou, Y. Lin\
+  Letian Gong, Huaiyu Wan, Shengnan Guo, <ins>Xiucheng Li</ins>, Yan Lin, E. Zheng, T. Wang, Z. Zhou, Y. Lin\
   *IEEE Transactions on Knowledge and Data Engineering* (**TKDE**), 2024 [[PDF]](https://arxiv.org/pdf/2407.15899)
 
 - **Multivariate Time-series Imputation with Disentangled Temporal Representations**\
