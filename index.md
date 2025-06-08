@@ -16,25 +16,28 @@ Assistant Professor of School of Computer Science and Technology at Harbin Insti
 
 ---
 
-## Research interests and group
+## Research Interests
 
-Machine learning and data mining, with a focus on sequence, graph, and probabilistic modeling:
-* Time series data and spatiotemporal data modeling.
-* Self-supervised learning, structured and interpretable representation learning.
-* Graph and compact deep learning by exploring the underlying symmetry and structures.
-* Probabilistic generative models.
+My research interests fall into machine learning and its applications. I am particularly interested in  spatiotemporal data modeling and developing machine learning models for various scientific learning problems (also known as *AI4Science*) by exploring the underlying geometry and symmetry, the topics include:
 
-You can learn more about me from my [posts](posts.html).
+* Spatiotemporal (time series) data modeling.
+* Machine learning for partial differential equations (ML4PDEs).
+* Graph machine learning and probabilistic generative models.
 
-I am very glad to work with some excellent students at HITSZ. <font color="#2E86C1">Self-motivated undergraduate students</font> with strong programming skills and solid math background are welcome, feel free to drop me an email and attach your cv if you are interested.
+You can learn more about my interests from my [posts](posts.html).
 
-#### Alumni (undergraduate students)
+## Students and Alumni
+
+I am very glad to work with some excellent students at HITSZ. <font color="#2E86C1">Self-motivated undergraduate students</font> with strong programming skills and solid math background are welcome, feel free to drop me an email and attach your cv if you are interested in the above topics.
 
 |:--------|:--------|:-------|:--------|
+| Yunfeng Liao |&nbsp; (廖云峰)   |&nbsp; class of 2022@HITSZ | |
 | Haokun Gui |&nbsp; (桂昊坤)$$\dagger$$   |&nbsp; class of 2020@HITSZ |&rarr; PhD@HKUST|
 | Yuhang Xie |&nbsp; (谢宇航)$$\dagger$$   |&nbsp; class of 2020@HITSZ |&rarr; PhD@CUHK|
 | Xinya Liu |&nbsp; (刘欣雅)   |&nbsp; class of 2020@HITSZ |&rarr; PhD@CityU HK|
 | Hongyi Chen |&nbsp; (陈弘毅)   |&nbsp; class of 2020@HITSZ |&rarr; Master@HITSZ|
+| Yilun Ji |&nbsp; (纪一仑)   |&nbsp; class of 2020@HITSZ |&rarr; Master@HITSZ|
+| Hualong Wu |&nbsp; (吴华龙)   |&nbsp; class of 2019@HITSZ |&rarr; Master@HITSZ|
 |=====
 {: rules="groups"}
 
@@ -46,11 +49,30 @@ $$\dagger$$ *co-supervised with Prof. [Xinyang Chen](https://faculty.hitsz.edu.c
 ## Teaching
 
 * [Discrete Mathematics]({{ '/assets/courses/discrete-math.html' | relative_url }}), 2024@HITSZ.
-* Compiler, 2022-2024@HITSZ.
 
 ---
 
 ## Publications
+
+- **Curvature-aware Graph Attention for PDEs on Manifolds**\
+  Yunfeng Liao, Jiawen Guan, <ins>Xiucheng Li</ins><span>&#9993;</span>\
+  *International Conference on Machine Learning* (**ICML**), 2025 [[PDF]]({{ '/assets/pdfs/icml25-curv-gt.pdf' | relative_url }}) [[Code]](https://github.com/Supradax/CurvGT)
+
+- **Spatio-Temporal LLM for Few Shot Time Series Forecasting**\
+  Yue Jiang, Yile Chen, <ins>Xiucheng Li</ins>, Qin Chao, Shuai Liu, Gao Cong\
+  *International Conference on Machine Learning* (**ICML**), 2025 [[PDF]]({{ '/assets/pdfs/icml25-fstllm.pdf' | relative_url }})
+
+- **Handling Imbalanced Pseudolabels for Vision-Language Models with Concept Alignment and Confusion-Aware Calibrated Margin**\
+  Yuchen Wang, Xuefeng Bai, <ins>Xiucheng Li</ins>, Weili Guan, Liqiang Nie, Xinyang Chen\
+  *International Conference on Machine Learning* (**ICML**), 2025 [[PDF]]({{ '/assets/pdfs/icml25-vlm.pdf' | relative_url }}) [[Code]](https://github.com/Noahwangyuchen/CAP)
+
+- **Disentangling Dynamics: Advanced, Scalable and Explainable Imputation for Multivariate Time Series**\
+  Shuai Liu, <ins>Xiucheng Li</ins>, Yile Chen, Yue Jiang, Gao Cong\
+  *IEEE Transactions on Knowledge and Data Engineering* (**TKDE**), 2025 [[PDF]]({{ '/assets/pdfs/tkde25-adatider.pdf' | relative_url }})
+
+- **Semantic-Enhanced Representation Learning for Road Networks with Temporal Dynamics**\
+  Yile Chen, <ins>Xiucheng Li</ins>, Gao Cong, Zhifeng Bao, Cheng Long\
+  *IEEE Transactions on Mobile Computing* (**TMC**), 2025 [[PDF]]({{ '/assets/pdfs/tmc25-dytoast.pdf' | relative_url }})
 
 - **Structured Matrix Basis for Multivariate Time Series Forecasting with Interpretable Dynamics**\
   Xiaodan Chen, <ins>Xiucheng Li</ins><span>&#9993;</span>, Xinyang Chen, Zhijun Li<span>&#9993;</span>\
