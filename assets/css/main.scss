@@ -2,4 +2,23 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+
 @import "main";
+
+/* Fix long words breaking layout or moving to new line */
+p,
+li,
+.article-content,
+.page-content,
+.post-content,
+.wrapper {
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+pre {
+  white-space: pre-wrap !important; /* Allow wrapping */
+  word-wrap: break-word;
+  overflow-x: auto; /* Still allow scrolling if necessary */
+}
+

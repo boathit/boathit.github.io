@@ -56,3 +56,22 @@ $on-laptop:        800px !default;
   "minima/base",
   "minima/layout"
 ;
+
+/* Prevent long words or code from breaking layout */
+body {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+article,
+.page-content {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+pre,
+code {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}

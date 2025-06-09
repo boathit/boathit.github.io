@@ -18,7 +18,7 @@ Assistant Professor of School of Computer Science and Technology at Harbin Insti
 
 ## Research Interests
 
-My research interests fall into machine learning and its applications. I am particularly interested in  spatiotemporal data modeling and developing machine learning models for various scientific learning problems (also known as *AI4Science*) by exploring the underlying geometry and symmetry, the topics include:
+My research interests fall into machine learning and its applications. I am particularly interested in  spatiotemporal data modeling and developing machine learning models for various scientific learning problems (also known as <font color="#FA8072">AI4Science</font>) by exploring the underlying geometry and symmetry, the topics include:
 
 * Spatiotemporal (time series) data modeling.
 * Machine learning for partial differential equations (ML4PDEs).
@@ -28,7 +28,7 @@ You can learn more about my interests from my [posts](posts.html).
 
 ## Students and Alumni
 
-I am very glad to work with some excellent students at HITSZ. <font color="#2E86C1">Self-motivated undergraduate students</font> with strong programming skills and solid math background are welcome, feel free to drop me an email and attach your cv if you are interested in the above topics.
+I am very glad to work with some excellent students at HITSZ. Self-motivated undergraduate students with strong programming skills and solid math background are welcome, feel free to drop me an email and attach your cv if you are interested in the above topics.
 
 |:--------|:--------|:-------|:--------|
 | Yunfeng Liao |&nbsp; (廖云峰)   |&nbsp; class of 2022@HITSZ | |
