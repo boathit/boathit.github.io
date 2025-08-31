@@ -1,5 +1,5 @@
 
-## 离散数学 (Discrete Mathematics) 2024 秋季
+## 离散数学 (Discrete Mathematics) 2024-2025 秋季
 
 
 |:--------|:--------:|:-------|
